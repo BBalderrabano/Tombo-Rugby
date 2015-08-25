@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">PlayScreen</layout>
+        <layout order="2">StartScreen</layout>
+        <event-sheet active="1" order="1">PlayScreenEvents</event-sheet>
+        <event-sheet order="3">StartScreenEvents</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="0">
+        <family expanded="0" name="RugbierGordoFamily" />
+        <family expanded="0" name="RugbierNormalFamily" />
+        <family expanded="0" name="RugbierRapidoFamily" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+        <folder expanded="0" path="object-folder/RugbierGordo sprites/" />
+        <folder expanded="0" path="object-folder/RugbierNormal sprites/" />
+        <folder expanded="0" path="object-folder/RugbierRapido sprites/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Spriter animations/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/RugbierGordo_entity_000_Rugbier_0005_BackLeg/" />
+        <folder expanded="1" path="animation-folder/RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor/" />
+        <folder expanded="1" path="animation-folder/RugbierGordo_entity_000_Rugbier_0003_Torso/" />
+        <folder expanded="1" path="animation-folder/RugbierGordo_entity_000_Rugbier_0001_FrontLeg/" />
+        <folder expanded="1" path="animation-folder/RugbierGordo_entity_000_Rugbier_0000_Head/" />
+        <folder expanded="1" path="animation-folder/RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0000_LegColorBack/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor/" />
+        <folder expanded="1" path="animation-folder/RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor/" />
+        <folder expanded="1" path="animation-folder/RugbierRapido_entity_000_Rugbier_0009_BackThights/" />
+        <folder expanded="1" path="animation-folder/RugbierRapido_entity_000_Rugbier_0010_BackLegColor/" />
+        <folder expanded="1" path="animation-folder/RugbierRapido_entity_000_Rugbier_0012_BackSoulder/" />
+        <folder expanded="1" path="animation-folder/RugbierRapido_entity_000_Rugbier_0011_BackArmColor/" />
+        <folder expanded="1" path="animation-folder/RugbierRapido_entity_000_Rugbier_0008_TorsoColor/" />
+        <folder expanded="1" path="animation-folder/RugbierRapido_entity_000_Rugbier_0006_FrontThights/" />
+        <folder expanded="1" path="animation-folder/RugbierRapido_entity_000_Rugbier_0007_FrontLegColor/" />
+        <folder expanded="1" path="animation-folder/RugbierRapido_entity_000_Rugbier_0003_Normal/" />
+        <folder expanded="1" path="animation-folder/RugbierRapido_entity_000_Rugbier_0005_FrontShoulder/" />
+        <folder expanded="1" path="animation-folder/Background/" />
+        <folder expanded="1" path="animation-folder/Spawn1/" />
+        <folder expanded="1" path="animation-folder/Spawn2/" />
+        <folder expanded="1" path="animation-folder/Spawn3/" />
+        <folder expanded="1" path="animation-folder/Spawn4/" />
+        <folder expanded="1" path="animation-folder/Rugbier/" />
+        <folder expanded="1" path="animation-folder/ScoreBoard/" />
+        <folder expanded="1" path="animation-folder/RugbyBall/" />
+        <folder expanded="1" path="animation-folder/OutZone/" />
+        <folder expanded="1" path="animation-folder/StartBkg/" />
+        <folder expanded="1" path="animation-folder/StartScoreboard/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/StartButton/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/GameOver/" />
+        <folder expanded="1" path="animation-folder/HighscorePlate/" />
+        <folder expanded="1" path="animation-folder/Title/" />
+        <folder expanded="1" path="animation-folder/TouchdownZone/" />
+    </folders-expanded>
+</c2uistate>

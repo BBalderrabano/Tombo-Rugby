@@ -1,0 +1,4119 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 6
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 7
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 8
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 9
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"parent": 0,
+										"timeline": 10
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"parent": 0,
+										"timeline": 11
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 348.353384,
+										"abs_pivot_x": 0.559004,
+										"abs_pivot_y": 0.84151,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -64.07076279155535,
+										"abs_y": -167.8932853964794,
+										"file": 2,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Rugbier_0005_Back-Leg",
+										"parent": 4,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 346.00222662558787,
+										"abs_pivot_x": 0.719745,
+										"abs_pivot_y": 0.788333,
+										"abs_scale_x": 1.2395720000000001,
+										"abs_scale_y": 1.239572,
+										"abs_x": -117.62062342610595,
+										"abs_y": -380.56056094284475,
+										"file": 4,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Rugbier_0001s_0001_Back-Arm-Color",
+										"parent": 3,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 5.781078999999977,
+										"abs_pivot_x": 0.426548,
+										"abs_pivot_y": 0.312102,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -1.2337078148710887,
+										"abs_y": -189.79153400655383,
+										"file": 1,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "Rugbier_0003_Torso",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 55.09369200000003,
+										"abs_pivot_x": 0.611922,
+										"abs_pivot_y": 0.819801,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 111.06560768067067,
+										"abs_y": -142.72810020389772,
+										"file": 3,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "Rugbier_0001_Front-Leg",
+										"parent": 5,
+										"timeline": "2",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 14.851184999999987,
+										"abs_pivot_x": 0.43949,
+										"abs_pivot_y": 0.19256799999999996,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -15.143190405418757,
+										"abs_y": -424.67224715819304,
+										"file": 0,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "Rugbier_0000_Head",
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 10.881925790447326,
+										"abs_pivot_x": 0.721154,
+										"abs_pivot_y": 0.851517,
+										"abs_scale_x": 1.2341769999999999,
+										"abs_scale_y": 1.1862369999999998,
+										"abs_x": 121.82384739136745,
+										"abs_y": -373.34817347407954,
+										"file": 5,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "Rugbier_0001s_0000_Front-Arm-Color",
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "5"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 6
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 7
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 8
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 0,
+										"timeline": 9
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 0,
+										"timeline": 10
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"parent": 0,
+										"timeline": 11
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 4,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 3,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 5,
+										"timeline": "2",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"parent": 1,
+										"timeline": "3",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "5"
+									}
+								],
+								"time": 499
+							}
+						]
+					},
+					"name": "Run",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 271.569355,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.426548,
+										"pivot_y": 0.312102,
+										"x": 91.41240000000002,
+										"y": 18.708627999999983
+									},
+									"spin": 0
+								}
+							],
+							"name": "Rugbier_0003_Torso",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 97.43600200000003,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.559004,
+										"pivot_y": 0.84151,
+										"x": 21.440383000000008,
+										"y": -3.5367269999999826
+									},
+									"spin": 0
+								}
+							],
+							"name": "Rugbier_0005_Back-Leg",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 91.913322,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.611922,
+										"pivot_y": 0.819801,
+										"x": 39.98045900000001,
+										"y": 15.428695000000019
+									},
+									"spin": 0
+								}
+							],
+							"name": "Rugbier_0001_Front-Leg",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 268.325162,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.10210500000002,
+										"y": 14.261204000000024
+									},
+									"spin": 0
+								}
+							],
+							"name": "Rugbier_0000_Head",
+							"obj": 5
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 58.94732762558789,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.2395720000000001,
+										"scale_y": 1.239572,
+										"x": -62.45516207972377,
+										"y": -69.2143428944019
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 189.1921955429151,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.2395720000000001,
+										"scale_y": 1.2395719999999995,
+										"x": 80.79628048839288,
+										"y": -35.61338751879375
+									},
+									"spin": -1,
+									"time": 499
+								}
+							],
+							"name": "Rugbier_0001s_0001_Back-Arm-Color",
+							"obj": 6
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 200.04909479044738,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.721154,
+										"pivot_y": 0.851517,
+										"scale_x": 1.2341769999999999,
+										"scale_y": 1.1862369999999998,
+										"x": -5.225101000000058,
+										"y": 1.3166730000000262
+									},
+									"spin": 0
+								}
+							],
+							"name": "Rugbier_0001s_0000_Front-Arm-Color",
+							"obj": 7
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"bone": {
+										"angle": 94.211724,
+										"x": 24.137931,
+										"y": 100
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 94.211724,
+										"x": 24.137931,
+										"y": 160
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 499
+								}
+							],
+							"name": "bone_000",
+							"obj": 8,
+							"object_type": "bone"
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"bone": {
+										"angle": 12.314299000000005,
+										"x": 265.14064900000005,
+										"y": -12.700587000000043
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 356.263358,
+										"x": 265.14064900000005,
+										"y": -12.700587000000043
+									},
+									"id": 1,
+									"time": 499
+								}
+							],
+							"name": "bone_001",
+							"obj": 9,
+							"object_type": "bone"
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"bone": {
+										"angle": 76.62110699999994,
+										"x": 267.92568700000004,
+										"y": -112.71878899999994
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 146.23385121354795,
+										"x": 267.9256870000001,
+										"y": -112.71878899999997
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 499
+								}
+							],
+							"name": "bone_002",
+							"obj": 10,
+							"object_type": "bone"
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"bone": {
+										"angle": 192.84317499999997,
+										"x": 244.706491,
+										"y": 39.40524300000006
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 82.37006399999996,
+										"x": 244.706491,
+										"y": 39.40524300000006
+									},
+									"id": 1,
+									"time": 499
+								}
+							],
+							"name": "bone_003",
+							"obj": 11,
+							"object_type": "bone"
+						},
+						{
+							"id": 10,
+							"key": [
+								{
+									"bone": {
+										"angle": 156.70565799999997,
+										"x": 92.482248,
+										"y": 71.25711200000002
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 233.35558000000003,
+										"x": 92.482248,
+										"y": 71.25711200000002
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 499
+								}
+							],
+							"name": "bone_004",
+							"obj": 12,
+							"object_type": "bone"
+						},
+						{
+							"id": 11,
+							"key": [
+								{
+									"bone": {
+										"angle": 228.96864600000004,
+										"x": 50.835952000000006,
+										"y": -49.543192
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 156.816457,
+										"x": 50.835952000000006,
+										"y": -49.543192
+									},
+									"id": 1,
+									"time": 499
+								}
+							],
+							"name": "bone_005",
+							"obj": 13,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 1,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 348.353384,
+										"abs_pivot_x": 0.559004,
+										"abs_pivot_y": 0.84151,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -64.07076279155535,
+										"abs_y": -167.8932853964794,
+										"file": 2,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Rugbier_0005_Back-Leg",
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 36.275147999999945,
+										"abs_pivot_x": 0.719745,
+										"abs_pivot_y": 0.788333,
+										"abs_scale_x": 1.239572,
+										"abs_scale_y": 1.239572,
+										"abs_x": -27.620623426105944,
+										"abs_y": -325.56056094284463,
+										"file": 4,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Rugbier_0001s_0001_Back-Arm-Color",
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 5.781078999999977,
+										"abs_pivot_x": 0.426548,
+										"abs_pivot_y": 0.312102,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -1.2337078148711065,
+										"abs_y": -189.79153400655383,
+										"file": 1,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "Rugbier_0003_Torso",
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 55.09369200000003,
+										"abs_pivot_x": 0.611922,
+										"abs_pivot_y": 0.819801,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 111.06560768067067,
+										"abs_y": -142.72810020389772,
+										"file": 3,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "Rugbier_0001_Front-Leg",
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 14.851184999999987,
+										"abs_pivot_x": 0.43949,
+										"abs_pivot_y": 0.19256799999999996,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -15.14319040541876,
+										"abs_y": -424.672247158193,
+										"file": 6,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "Rugbier_0000_Head",
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 292.59231099999994,
+										"abs_pivot_x": 0.721154,
+										"abs_pivot_y": 0.851517,
+										"abs_scale_x": 1.234177,
+										"abs_scale_y": 1.186237,
+										"abs_x": 121.82384739136745,
+										"abs_y": -373.34817347407954,
+										"file": 5,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "Rugbier_0001s_0000_Front-Arm-Color",
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								],
+								"time": 500
+							}
+						]
+					},
+					"name": "RunDamage",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"bone": {
+										"angle": 94.211724,
+										"x": 24.137931,
+										"y": 100
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 94.211724,
+										"x": 24.137930999999995,
+										"y": 164.99999999999994
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "bone_000",
+							"obj": 8,
+							"object_type": "bone"
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 12.314299000000005,
+										"x": 265.140649,
+										"y": -12.700587
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 356.263358,
+										"x": 265.1406490000001,
+										"y": -12.700587000000045
+									},
+									"id": 1,
+									"time": 500
+								}
+							],
+							"name": "bone_001",
+							"obj": 9,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 76.621107,
+										"x": 267.925687,
+										"y": -112.718789
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 78.51685061223066,
+										"x": 267.92568700000004,
+										"y": -112.71878899999994
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 500
+								}
+							],
+							"name": "bone_002",
+							"obj": 10,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 192.843175,
+										"x": 244.706491,
+										"y": 39.405243
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 158.86164439281342,
+										"x": 244.70649099999997,
+										"y": 39.405243000000056
+									},
+									"id": 1,
+									"time": 500
+								}
+							],
+							"name": "bone_003",
+							"obj": 11,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 156.705658,
+										"x": 92.482248,
+										"y": 71.257112
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 233.35558000000003,
+										"x": 92.482248,
+										"y": 71.25711200000002
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 500
+								}
+							],
+							"name": "bone_004",
+							"obj": 12,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"bone": {
+										"angle": 228.968646,
+										"x": 50.835952,
+										"y": -49.543192
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 156.816457,
+										"x": 50.835952000000006,
+										"y": -49.543192
+									},
+									"id": 1,
+									"time": 500
+								}
+							],
+							"name": "bone_005",
+							"obj": 13,
+							"object_type": "bone"
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 97.43600200000003,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.559004,
+										"pivot_y": 0.84151,
+										"x": 21.440383,
+										"y": -3.536727
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 97.43600200000003,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.559004,
+										"pivot_y": 0.84151,
+										"x": 21.440383,
+										"y": -3.536727
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0005_Back-Leg",
+							"obj": 3
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 109.220249,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.239572,
+										"scale_y": 1.239572,
+										"x": 16.522076,
+										"y": 0.697
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 109.220249,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.239572,
+										"scale_y": 1.239572,
+										"x": 16.522076,
+										"y": 0.697
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0001s_0001_Back-Arm-Color",
+							"obj": 6
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 271.569355,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.426548,
+										"pivot_y": 0.312102,
+										"x": 91.4124,
+										"y": 18.708628
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 271.569355,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.426548,
+										"pivot_y": 0.312102,
+										"x": 91.4124,
+										"y": 18.708628
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0003_Torso",
+							"obj": 0
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 91.913322,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.611922,
+										"pivot_y": 0.819801,
+										"x": 39.980459,
+										"y": 15.428695
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 91.913322,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.611922,
+										"pivot_y": 0.819801,
+										"x": 39.980459,
+										"y": 15.428695
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0001_Front-Leg",
+							"obj": 4
+						},
+						{
+							"id": 10,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 268.325162,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.102105,
+										"y": 14.261204
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 288.57981523342556,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"scale_x": 0.9999999999999997,
+										"x": 66.10210500000007,
+										"y": 14.261204000000033
+									},
+									"spin": -1,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0000_Head",
+							"obj": 5
+						},
+						{
+							"id": 11,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 121.75948,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.721154,
+										"pivot_y": 0.851517,
+										"scale_x": 1.234177,
+										"scale_y": 1.186237,
+										"x": -5.225101,
+										"y": 1.316673
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 121.75948,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.721154,
+										"pivot_y": 0.851517,
+										"scale_x": 1.234177,
+										"scale_y": 1.186237,
+										"x": -5.225101,
+										"y": 1.316673
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0001s_0000_Front-Arm-Color",
+							"obj": 7
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 2,
+					"interval": 100,
+					"length": 400,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 348.353384,
+										"abs_pivot_x": 0.559004,
+										"abs_pivot_y": 0.84151,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -44.07076279155538,
+										"abs_y": -202.8932853964794,
+										"file": 2,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Rugbier_0005_Back-Leg",
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 327.16692326753287,
+										"abs_pivot_x": 0.719745,
+										"abs_pivot_y": 0.788333,
+										"abs_scale_x": 1.239572,
+										"abs_scale_y": 1.239572,
+										"abs_x": -25.73312720246652,
+										"abs_y": -365.4421169063337,
+										"file": 4,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Rugbier_0001s_0001_Back-Arm-Color",
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 5.781078999999977,
+										"abs_pivot_x": 0.426548,
+										"abs_pivot_y": 0.312102,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 18.766292185128915,
+										"abs_y": -224.79153400655383,
+										"file": 1,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "Rugbier_0003_Torso",
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 12.00079564779594,
+										"abs_pivot_x": 0.611922,
+										"abs_pivot_y": 0.819801,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 117.00664967436485,
+										"abs_y": -180.17717030379944,
+										"file": 3,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "Rugbier_0001_Front-Leg",
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 14.851184999999987,
+										"abs_pivot_x": 0.43949,
+										"abs_pivot_y": 0.19256799999999996,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 4.856809594581264,
+										"abs_y": -459.6722471581931,
+										"file": 6,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "Rugbier_0000_Head",
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 350.19062315697823,
+										"abs_pivot_x": 0.721154,
+										"abs_pivot_y": 0.851517,
+										"abs_scale_x": 1.234177,
+										"abs_scale_y": 1.186237,
+										"abs_x": 141.32728705769009,
+										"abs_y": -413.5160364425495,
+										"file": 5,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "Rugbier_0001s_0000_Front-Arm-Color",
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								],
+								"time": 400
+							}
+						]
+					},
+					"name": "Damage",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"bone": {
+										"angle": 94.211724,
+										"x": 44.137931,
+										"y": 135
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 94.211724,
+										"x": 46.637931,
+										"y": 177.49999999999994
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 400
+								}
+							],
+							"name": "bone_000",
+							"obj": 8,
+							"object_type": "bone"
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 12.314299000000005,
+										"x": 265.1406490000004,
+										"y": -12.70058700000006
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 12.314299000000005,
+										"x": 265.1406490000002,
+										"y": -12.70058700000005
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 400
+								}
+							],
+							"name": "bone_001",
+							"obj": 9,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 134.21941915697823,
+										"x": 267.9256870000002,
+										"y": -112.71878900000002
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 232.16889009870513,
+										"x": 267.9256870000002,
+										"y": -112.71878900000002
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 400
+								}
+							],
+							"name": "bone_002",
+							"obj": 10,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 123.7349502675329,
+										"x": 244.70649100000003,
+										"y": 39.40524300000006
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 49.61613485125321,
+										"x": 244.70649100000003,
+										"y": 39.40524300000006
+									},
+									"id": 1,
+									"time": 400
+								}
+							],
+							"name": "bone_003",
+							"obj": 11,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 156.70565799999997,
+										"x": 92.48224800000003,
+										"y": 71.25711200000005
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 130.488680545651,
+										"x": 92.48224800000006,
+										"y": 71.25711200000006
+									},
+									"id": 1,
+									"time": 400
+								}
+							],
+							"name": "bone_004",
+							"obj": 12,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"bone": {
+										"angle": 185.87574964779594,
+										"x": 77.89447608728906,
+										"y": -56.549351733948534
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 204.63239654808388,
+										"x": 77.89447608728904,
+										"y": -56.549351733948505
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 400
+								}
+							],
+							"name": "bone_005",
+							"obj": 13,
+							"object_type": "bone"
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 97.43600200000003,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.559004,
+										"pivot_y": 0.84151,
+										"x": 21.440383000000036,
+										"y": -3.5367269999999795
+									},
+									"spin": 0
+								}
+							],
+							"name": "Rugbier_0005_Back-Leg",
+							"obj": 3
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 109.22024899999997,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.239572,
+										"scale_y": 1.239572,
+										"x": 16.522076000000002,
+										"y": 0.6970000000000404
+									},
+									"spin": 0
+								}
+							],
+							"name": "Rugbier_0001s_0001_Back-Arm-Color",
+							"obj": 6
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 271.569355,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.426548,
+										"pivot_y": 0.312102,
+										"x": 91.41240000000002,
+										"y": 18.708627999999983
+									},
+									"spin": 0
+								}
+							],
+							"name": "Rugbier_0003_Torso",
+							"obj": 0
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 91.913322,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.611922,
+										"pivot_y": 0.819801,
+										"x": 39.980459000000025,
+										"y": 15.42869500000001
+									},
+									"spin": 0
+								}
+							],
+							"name": "Rugbier_0001_Front-Leg",
+							"obj": 4
+						},
+						{
+							"id": 10,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 268.325162,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.10210499999974,
+										"y": 14.261204000000086
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 226.15605233144205,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"scale_x": 1.0000000000000002,
+										"x": 66.10210499999992,
+										"y": 14.261204000000065
+									},
+									"time": 400
+								}
+							],
+							"name": "Rugbier_0000_Head",
+							"obj": 5
+						},
+						{
+							"id": 11,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 121.75948,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.721154,
+										"pivot_y": 0.851517,
+										"scale_x": 1.234177,
+										"scale_y": 1.186237,
+										"x": -5.225100999999972,
+										"y": 1.3166730000001576
+									},
+									"spin": 0
+								}
+							],
+							"name": "Rugbier_0001s_0000_Front-Arm-Color",
+							"obj": 7
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 3,
+					"interval": 100,
+					"length": 1000,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 348.353384,
+										"abs_pivot_x": 0.559004,
+										"abs_pivot_y": 0.84151,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -64.07076279155535,
+										"abs_y": -167.8932853964794,
+										"file": 2,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Rugbier_0005_Back-Leg",
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 36.275147999999945,
+										"abs_pivot_x": 0.719745,
+										"abs_pivot_y": 0.788333,
+										"abs_scale_x": 1.239572,
+										"abs_scale_y": 1.239572,
+										"abs_x": -27.620623426105944,
+										"abs_y": -325.56056094284463,
+										"file": 4,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Rugbier_0001s_0001_Back-Arm-Color",
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 5.781078999999977,
+										"abs_pivot_x": 0.426548,
+										"abs_pivot_y": 0.312102,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -1.2337078148711065,
+										"abs_y": -189.79153400655383,
+										"file": 1,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "Rugbier_0003_Torso",
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 55.09369200000003,
+										"abs_pivot_x": 0.611922,
+										"abs_pivot_y": 0.819801,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 111.06560768067067,
+										"abs_y": -142.72810020389772,
+										"file": 3,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "Rugbier_0001_Front-Leg",
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 14.851184999999987,
+										"abs_pivot_x": 0.43949,
+										"abs_pivot_y": 0.19256799999999996,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -15.14319040541876,
+										"abs_y": -424.672247158193,
+										"file": 6,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "Rugbier_0000_Head",
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 292.59231099999994,
+										"abs_pivot_x": 0.721154,
+										"abs_pivot_y": 0.851517,
+										"abs_scale_x": 1.234177,
+										"abs_scale_y": 1.186237,
+										"abs_x": 121.82384739136745,
+										"abs_y": -373.34817347407954,
+										"file": 5,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "Rugbier_0001s_0000_Front-Arm-Color",
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								],
+								"time": 500
+							}
+						]
+					},
+					"name": "DamageFinal",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"bone": {
+										"angle": 94.211724,
+										"x": 24.137931,
+										"y": 100
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 181.058546,
+										"x": 24.137931,
+										"y": 100
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 500
+								}
+							],
+							"name": "bone_000",
+							"obj": 8,
+							"object_type": "bone"
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 12.314299000000005,
+										"x": 265.140649,
+										"y": -12.700587
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 6.151362000000006,
+										"x": 265.140649,
+										"y": -12.700587
+									},
+									"id": 1,
+									"time": 500
+								}
+							],
+							"name": "bone_001",
+							"obj": 9,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 76.621107,
+										"x": 267.925687,
+										"y": -112.718789
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 245.847559,
+										"x": 267.925687,
+										"y": -112.718789
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 500
+								}
+							],
+							"name": "bone_002",
+							"obj": 10,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 192.843175,
+										"x": 244.706491,
+										"y": 39.405243
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 192.843175,
+										"x": 244.706491,
+										"y": 39.405243
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "bone_003",
+							"obj": 11,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 156.705658,
+										"x": 92.482248,
+										"y": 71.257112
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 210.139085,
+										"x": 92.482248,
+										"y": 71.257112
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 500
+								}
+							],
+							"name": "bone_004",
+							"obj": 12,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"bone": {
+										"angle": 228.968646,
+										"x": 50.835952,
+										"y": -49.543192
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 244.002709,
+										"x": 50.835952,
+										"y": -49.543192
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 500
+								}
+							],
+							"name": "bone_005",
+							"obj": 13,
+							"object_type": "bone"
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 97.43600200000003,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.559004,
+										"pivot_y": 0.84151,
+										"x": 21.440383,
+										"y": -3.536727
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 97.43600200000003,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.559004,
+										"pivot_y": 0.84151,
+										"x": 21.440383,
+										"y": -3.536727
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0005_Back-Leg",
+							"obj": 3
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 109.220249,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.239572,
+										"scale_y": 1.239572,
+										"x": 16.522076,
+										"y": 0.697
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 109.220249,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.239572,
+										"scale_y": 1.239572,
+										"x": 16.522076,
+										"y": 0.697
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0001s_0001_Back-Arm-Color",
+							"obj": 6
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 271.569355,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.426548,
+										"pivot_y": 0.312102,
+										"x": 91.4124,
+										"y": 18.708628
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 271.569355,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.426548,
+										"pivot_y": 0.312102,
+										"x": 91.4124,
+										"y": 18.708628
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0003_Torso",
+							"obj": 0
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 91.913322,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.611922,
+										"pivot_y": 0.819801,
+										"x": 39.980459,
+										"y": 15.428695
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 91.913322,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.611922,
+										"pivot_y": 0.819801,
+										"x": 39.980459,
+										"y": 15.428695
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0001_Front-Leg",
+							"obj": 4
+						},
+						{
+							"id": 10,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 268.325162,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.102105,
+										"y": 14.261204
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 268.325162,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.102105,
+										"y": 14.261204
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0000_Head",
+							"obj": 5
+						},
+						{
+							"id": 11,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 121.75948,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.721154,
+										"pivot_y": 0.851517,
+										"scale_x": 1.234177,
+										"scale_y": 1.186237,
+										"x": -5.225101,
+										"y": 1.316673
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 121.75948,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.721154,
+										"pivot_y": 0.851517,
+										"scale_x": 1.234177,
+										"scale_y": 1.186237,
+										"x": -5.225101,
+										"y": 1.316673
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Rugbier_0001s_0000_Front-Arm-Color",
+							"obj": 7
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 4,
+					"interval": 100,
+					"length": 800,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 348.353384,
+										"abs_pivot_x": 0.559004,
+										"abs_pivot_y": 0.84151,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -64.07076279155535,
+										"abs_y": -167.8932853964794,
+										"file": 2,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Rugbier_0005_Back-Leg",
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 346.00222662558787,
+										"abs_pivot_x": 0.719745,
+										"abs_pivot_y": 0.788333,
+										"abs_scale_x": 1.2395720000000001,
+										"abs_scale_y": 1.239572,
+										"abs_x": -117.62062342610594,
+										"abs_y": -380.56056094284475,
+										"file": 4,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Rugbier_0001s_0001_Back-Arm-Color",
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 5.781078999999977,
+										"abs_pivot_x": 0.426548,
+										"abs_pivot_y": 0.312102,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -1.2337078148710887,
+										"abs_y": -189.79153400655383,
+										"file": 1,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "Rugbier_0003_Torso",
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 6.821645531397962,
+										"abs_pivot_x": 0.611922,
+										"abs_pivot_y": 0.819801,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 88.60673318616097,
+										"abs_y": -143.3234914905745,
+										"file": 3,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "Rugbier_0001_Front-Leg",
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 14.851184999999987,
+										"abs_pivot_x": 0.43949,
+										"abs_pivot_y": 0.19256799999999996,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -15.143190405418679,
+										"abs_y": -424.67224715819304,
+										"file": 0,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "Rugbier_0000_Head",
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 10.881925790447326,
+										"abs_pivot_x": 0.721154,
+										"abs_pivot_y": 0.851517,
+										"abs_scale_x": 1.2341769999999999,
+										"abs_scale_y": 1.1862369999999998,
+										"abs_x": 121.82384739136745,
+										"abs_y": -373.34817347407954,
+										"file": 5,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "Rugbier_0001s_0000_Front-Arm-Color",
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								],
+								"time": 299
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 2,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 2,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 2,
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								],
+								"time": 599
+							}
+						]
+					},
+					"name": "Touchdown",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"bone": {
+										"angle": 94.211724,
+										"x": 24.137931,
+										"y": 100
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 114.79649302485734,
+										"x": 24.137931,
+										"y": 100
+									},
+									"id": 1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 172.8632739063586,
+										"x": 216.63793099999998,
+										"y": 107.50000000000003
+									},
+									"id": 2,
+									"spin": -1,
+									"time": 599
+								}
+							],
+							"name": "bone_000",
+							"obj": 8,
+							"object_type": "bone"
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 12.314299000000005,
+										"x": 265.14064900000034,
+										"y": -12.700587000000056
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 12.314299000000005,
+										"x": 265.1406490000001,
+										"y": -12.700587000000048
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 328.34890574597176,
+										"x": 265.1406490000001,
+										"y": -12.700587000000045
+									},
+									"id": 2,
+									"time": 599
+								}
+							],
+							"name": "bone_001",
+							"obj": 9,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 76.62110699999994,
+										"x": 267.9256870000003,
+										"y": -112.71878900000006
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 76.62110699999994,
+										"x": 267.9256870000001,
+										"y": -112.71878899999997
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 1.8700700310736238,
+										"x": 267.9256870000001,
+										"y": -112.71878899999997
+									},
+									"id": 2,
+									"time": 599
+								}
+							],
+							"name": "bone_002",
+							"obj": 10,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 192.84317499999997,
+										"x": 244.70649100000003,
+										"y": 39.40524300000006
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 81.16352667474996,
+										"x": 244.70649099999991,
+										"y": 39.40524300000005
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 70.89014072930081,
+										"x": 244.70649100000003,
+										"y": 39.40524299999996
+									},
+									"id": 2,
+									"time": 599
+								}
+							],
+							"name": "bone_003",
+							"obj": 11,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 156.70565799999997,
+										"x": 92.48224800000001,
+										"y": 71.25711200000003
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 213.33608547409602,
+										"x": 92.48224800000001,
+										"y": 71.25711200000003
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 185.4395530912085,
+										"x": 92.482248,
+										"y": 71.25711200000005
+									},
+									"id": 2,
+									"spin": -1,
+									"time": 599
+								}
+							],
+							"name": "bone_004",
+							"obj": 12,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"bone": {
+										"angle": 180.69659953139796,
+										"x": 78.26168742967064,
+										"y": -51.56285438309929
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 216.76006897152905,
+										"x": 63.59037283135974,
+										"y": -27.89660452629926
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 180.69659953139796,
+										"x": 78.26168742967066,
+										"y": -51.5628543830993
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "bone_005",
+							"obj": 13,
+							"object_type": "bone"
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 97.43600200000003,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.559004,
+										"pivot_y": 0.84151,
+										"x": 21.440383,
+										"y": -3.5367269999999684
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 97.43600200000003,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.559004,
+										"pivot_y": 0.84151,
+										"x": 21.440383000000015,
+										"y": -3.536726999999971
+									},
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0005_Back-Leg",
+							"obj": 3
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 58.94732762558789,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.2395720000000001,
+										"scale_y": 1.239572,
+										"x": -62.45516207972375,
+										"y": -69.21434289440188
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 171.0244295998474,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.239572,
+										"scale_y": 1.2395719999999997,
+										"x": 69.07590013166427,
+										"y": -36.62477901968905
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 171.0244295998474,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.239572,
+										"scale_y": 1.2395719999999997,
+										"x": 69.07590013166427,
+										"y": -36.62477901968907
+									},
+									"spin": -1,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0001s_0001_Back-Arm-Color",
+							"obj": 6
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 271.569355,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.426548,
+										"pivot_y": 0.312102,
+										"x": 91.41240000000002,
+										"y": 18.708627999999983
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 271.569355,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.426548,
+										"pivot_y": 0.312102,
+										"x": 91.41239999999996,
+										"y": 18.708627999999976
+									},
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0003_Torso",
+							"obj": 0
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 91.913322,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.611922,
+										"pivot_y": 0.819801,
+										"x": 39.98045899999999,
+										"y": 15.428695000000033
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 91.913322,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.611922,
+										"pivot_y": 0.819801,
+										"x": 39.980458999999996,
+										"y": 15.428695000000046
+									},
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0001_Front-Leg",
+							"obj": 4
+						},
+						{
+							"id": 10,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 268.325162,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.10210499999974,
+										"y": 14.261204000000026
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 268.325162,
+										"file": 7,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.10210499999988,
+										"y": 14.261204000000056
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 268.325162,
+										"file": 7,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.10210499999997,
+										"y": 14.261204000000012
+									},
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0000_Head",
+							"obj": 5
+						},
+						{
+							"id": 11,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 200.04909479044738,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.721154,
+										"pivot_y": 0.851517,
+										"scale_x": 1.2341769999999999,
+										"scale_y": 1.1862369999999998,
+										"x": -5.225101000000005,
+										"y": 1.3166730000003237
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 200.04909479044738,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.721154,
+										"pivot_y": 0.851517,
+										"scale_x": 1.2341769999999999,
+										"scale_y": 1.1862369999999998,
+										"x": -5.225101000000038,
+										"y": 1.3166730000000877
+									},
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0001s_0000_Front-Arm-Color",
+							"obj": 7
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 5,
+					"interval": 100,
+					"length": 800,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 348.353384,
+										"abs_pivot_x": 0.559004,
+										"abs_pivot_y": 0.84151,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -64.07076279155535,
+										"abs_y": -167.8932853964794,
+										"file": 2,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Rugbier_0005_Back-Leg",
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 346.00222662558787,
+										"abs_pivot_x": 0.719745,
+										"abs_pivot_y": 0.788333,
+										"abs_scale_x": 1.2395720000000001,
+										"abs_scale_y": 1.239572,
+										"abs_x": -117.62062342610594,
+										"abs_y": -380.56056094284475,
+										"file": 4,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Rugbier_0001s_0001_Back-Arm-Color",
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 5.781078999999977,
+										"abs_pivot_x": 0.426548,
+										"abs_pivot_y": 0.312102,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -1.2337078148710887,
+										"abs_y": -189.79153400655383,
+										"file": 1,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "Rugbier_0003_Torso",
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 6.821645531397962,
+										"abs_pivot_x": 0.611922,
+										"abs_pivot_y": 0.819801,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 88.60673318616097,
+										"abs_y": -143.3234914905745,
+										"file": 3,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "Rugbier_0001_Front-Leg",
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 14.851184999999987,
+										"abs_pivot_x": 0.43949,
+										"abs_pivot_y": 0.19256799999999996,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -15.143190405418672,
+										"abs_y": -424.67224715819304,
+										"file": 6,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "Rugbier_0000_Head",
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 10.881925790447326,
+										"abs_pivot_x": 0.721154,
+										"abs_pivot_y": 0.851517,
+										"abs_scale_x": 1.2341769999999999,
+										"abs_scale_y": 1.1862369999999998,
+										"abs_x": 121.82384739136745,
+										"abs_y": -373.34817347407954,
+										"file": 5,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "Rugbier_0001s_0000_Front-Arm-Color",
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								],
+								"time": 299
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 0
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 0,
+										"timeline": 2
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 4,
+										"key": 2,
+										"parent": 0,
+										"timeline": 4
+									},
+									{
+										"id": 5,
+										"key": 2,
+										"parent": 0,
+										"timeline": 5
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 4,
+										"timeline": "6",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 3,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": "8",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 5,
+										"timeline": "9",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 2,
+										"parent": 1,
+										"timeline": "10",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"parent": 2,
+										"timeline": "11",
+										"z_index": "5"
+									}
+								],
+								"time": 599
+							}
+						]
+					},
+					"name": "TouchdownDamage",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"bone": {
+										"angle": 94.211724,
+										"x": 24.137931,
+										"y": 100
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 114.79649302485734,
+										"x": 24.137931,
+										"y": 100
+									},
+									"id": 1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 172.8632739063586,
+										"x": 216.63793099999998,
+										"y": 107.50000000000003
+									},
+									"id": 2,
+									"spin": -1,
+									"time": 599
+								}
+							],
+							"name": "bone_000",
+							"obj": 8,
+							"object_type": "bone"
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 12.314299000000005,
+										"x": 265.14064900000034,
+										"y": -12.700587000000056
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 12.314299000000005,
+										"x": 265.1406490000001,
+										"y": -12.700587000000048
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 328.34890574597176,
+										"x": 265.1406490000001,
+										"y": -12.700587000000045
+									},
+									"id": 2,
+									"time": 599
+								}
+							],
+							"name": "bone_001",
+							"obj": 9,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 76.62110699999994,
+										"x": 267.9256870000003,
+										"y": -112.71878900000006
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 76.62110699999994,
+										"x": 267.9256870000001,
+										"y": -112.71878899999997
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 1.8700700310736238,
+										"x": 267.9256870000001,
+										"y": -112.71878899999997
+									},
+									"id": 2,
+									"time": 599
+								}
+							],
+							"name": "bone_002",
+							"obj": 10,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 192.84317499999997,
+										"x": 244.70649100000003,
+										"y": 39.40524300000006
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 81.16352667474996,
+										"x": 244.70649099999991,
+										"y": 39.40524300000005
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 70.89014072930081,
+										"x": 244.70649100000003,
+										"y": 39.40524299999996
+									},
+									"id": 2,
+									"time": 599
+								}
+							],
+							"name": "bone_003",
+							"obj": 11,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 156.70565799999997,
+										"x": 92.48224800000001,
+										"y": 71.25711200000003
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 213.33608547409602,
+										"x": 92.48224800000001,
+										"y": 71.25711200000003
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 185.4395530912085,
+										"x": 92.482248,
+										"y": 71.25711200000005
+									},
+									"id": 2,
+									"spin": -1,
+									"time": 599
+								}
+							],
+							"name": "bone_004",
+							"obj": 12,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"bone": {
+										"angle": 180.69659953139796,
+										"x": 78.26168742967064,
+										"y": -51.56285438309929
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 216.76006897152905,
+										"x": 63.59037283135974,
+										"y": -27.89660452629926
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 299
+								},
+								{
+									"bone": {
+										"angle": 180.69659953139796,
+										"x": 78.26168742967066,
+										"y": -51.5628543830993
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "bone_005",
+							"obj": 13,
+							"object_type": "bone"
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 97.43600200000003,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.559004,
+										"pivot_y": 0.84151,
+										"x": 21.440383,
+										"y": -3.5367269999999684
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 97.43600200000003,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.559004,
+										"pivot_y": 0.84151,
+										"x": 21.440383000000015,
+										"y": -3.536726999999971
+									},
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0005_Back-Leg",
+							"obj": 3
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 58.94732762558789,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.2395720000000001,
+										"scale_y": 1.239572,
+										"x": -62.45516207972375,
+										"y": -69.21434289440188
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 171.0244295998474,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.239572,
+										"scale_y": 1.2395719999999997,
+										"x": 69.07590013166427,
+										"y": -36.62477901968905
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 171.0244295998474,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.719745,
+										"pivot_y": 0.788333,
+										"scale_x": 1.239572,
+										"scale_y": 1.2395719999999997,
+										"x": 69.07590013166427,
+										"y": -36.62477901968907
+									},
+									"spin": -1,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0001s_0001_Back-Arm-Color",
+							"obj": 6
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 271.569355,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.426548,
+										"pivot_y": 0.312102,
+										"x": 91.41240000000002,
+										"y": 18.708627999999983
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 271.569355,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.426548,
+										"pivot_y": 0.312102,
+										"x": 91.41239999999996,
+										"y": 18.708627999999976
+									},
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0003_Torso",
+							"obj": 0
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 91.913322,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.611922,
+										"pivot_y": 0.819801,
+										"x": 39.98045899999999,
+										"y": 15.428695000000033
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 91.913322,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.611922,
+										"pivot_y": 0.819801,
+										"x": 39.980458999999996,
+										"y": 15.428695000000046
+									},
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0001_Front-Leg",
+							"obj": 4
+						},
+						{
+							"id": 10,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 268.325162,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.10210499999972,
+										"y": 14.261204000000022
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 268.325162,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.1021049999999,
+										"y": 14.261204000000058
+									},
+									"spin": 0,
+									"time": 299
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 268.325162,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.43949,
+										"pivot_y": 0.19256799999999996,
+										"x": 66.10210499999997,
+										"y": 14.261204000000012
+									},
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0000_Head",
+							"obj": 5
+						},
+						{
+							"id": 11,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 200.04909479044738,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.721154,
+										"pivot_y": 0.851517,
+										"scale_x": 1.2341769999999999,
+										"scale_y": 1.1862369999999998,
+										"x": -5.225101000000005,
+										"y": 1.3166730000003237
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 200.04909479044738,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.721154,
+										"pivot_y": 0.851517,
+										"scale_x": 1.2341769999999999,
+										"scale_y": 1.1862369999999998,
+										"x": -5.225101000000038,
+										"y": 1.3166730000000877
+									},
+									"spin": 0,
+									"time": 599
+								}
+							],
+							"name": "Rugbier_0001s_0000_Front-Arm-Color",
+							"obj": 7
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_Rugbier_0003_Torso",
+					"realname": "Rugbier_0003_Torso",
+					"type": "sprite"
+				},
+				{
+					"frames": [],
+					"name": "entity_000_Rugbier_0000s_0001_Leg-Back-Animated",
+					"realname": "Rugbier_0000s_0001_Leg-Back-Animated",
+					"type": "sprite"
+				},
+				{
+					"frames": [],
+					"name": "entity_000_Rugbier_0000s_0000_Leg-Front-Animated",
+					"realname": "Rugbier_0000s_0000_Leg-Front-Animated",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_Rugbier_0005_Back-Leg",
+					"realname": "Rugbier_0005_Back-Leg",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_Rugbier_0001_Front-Leg",
+					"realname": "Rugbier_0001_Front-Leg",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						},
+						{
+							"file": 6,
+							"folder": 0
+						},
+						{
+							"file": 7,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_Rugbier_0000_Head",
+					"realname": "Rugbier_0000_Head",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 4,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_Rugbier_0001s_0001_Back-Arm-Color",
+					"realname": "Rugbier_0001s_0001_Back-Arm-Color",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_Rugbier_0001s_0000_Front-Arm-Color",
+					"realname": "Rugbier_0001s_0000_Front-Arm-Color",
+					"type": "sprite"
+				},
+				{
+					"h": 10,
+					"name": "entity_000_bone_000",
+					"realname": "bone_000",
+					"type": "bone",
+					"w": 377.728
+				},
+				{
+					"h": 10,
+					"name": "entity_000_bone_001",
+					"realname": "bone_001",
+					"type": "bone",
+					"w": 475.203
+				},
+				{
+					"h": 10,
+					"name": "entity_000_bone_002",
+					"realname": "bone_002",
+					"type": "bone",
+					"w": 274.424
+				},
+				{
+					"h": 10,
+					"name": "entity_000_bone_003",
+					"realname": "bone_003",
+					"type": "bone",
+					"w": 214.968
+				},
+				{
+					"h": 10,
+					"name": "entity_000_bone_004",
+					"realname": "bone_004",
+					"type": "bone",
+					"w": 251.047
+				},
+				{
+					"h": 10,
+					"name": "entity_000_bone_005",
+					"realname": "bone_005",
+					"type": "bone",
+					"w": 255.102
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 406,
+					"id": 0,
+					"name": "Rugbier_0000_Head.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 313
+				},
+				{
+					"height": 400,
+					"id": 1,
+					"name": "Rugbier_0003_Torso.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 408
+				},
+				{
+					"height": 230,
+					"id": 2,
+					"name": "Rugbier_0005_Back-Leg.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 144
+				},
+				{
+					"height": 233,
+					"id": 3,
+					"name": "Rugbier_0001_Front-Leg.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 136
+				},
+				{
+					"height": 110,
+					"id": 4,
+					"name": "Rugbier_0001s_0001_Back-Arm-Color.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 184
+				},
+				{
+					"height": 192,
+					"id": 5,
+					"name": "Rugbier_0001s_0000_Front-Arm-Color.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 169
+				},
+				{
+					"height": 393,
+					"id": 6,
+					"name": "Rugbier_0002s_0000_Head-Beaten.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 338
+				},
+				{
+					"height": 408,
+					"id": 7,
+					"name": "Rugbier_0004s_0000_Head-Happy.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 292
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r4.1",
+	"scon_version": "1.0"
+}

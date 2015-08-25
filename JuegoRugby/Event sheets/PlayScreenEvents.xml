@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PlayScreenEvents</name>
+    <events>
+        <variable comment="The enemy to be spawned" constant="0" name="EnemySelection" sid="1595809821593682" static="0" type="number">0</variable>
+        <variable comment="Holds the time spent, resets on layout" constant="0" name="TimeSpent" sid="7038837297088395" static="0" type="number">0</variable>
+        <variable comment="Score awarded by killing rugbiers" constant="0" name="Score" sid="8510581647069481" static="0" type="number">0</variable>
+        <variable comment="Time in seconds for each enemy to spawn" constant="0" name="SpawnTimer" sid="6261387696824228" static="0" type="number">3</variable>
+        <variable comment="Lives of the player" constant="0" name="Lives" sid="7022202396979396" static="0" type="number">4</variable>
+        <event-group description="Init events and configurations" sid="7596156916188152" title="Initialization">
+            <sub-events>
+                <event-block sid="2083346396911651">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="9348221262141448" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="4226210727092953" type="Audio">
+                            <param id="0" name="Audio file">SonidoFondo</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="5" name="Set web font" sid="5050278135671788" type="Timer">
+                            <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                        <action id="5" name="Set web font" sid="2370218578044762" type="ScoreText">
+                            <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                        <action id="5" name="Set web font" sid="1767768440711075" type="BallsText">
+                            <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                        <action id="5" name="Set web font" sid="423619196501765" type="Score">
+                            <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                        <action id="5" name="Set web font" sid="4672736439350029" type="Balls">
+                            <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="5069309705571153" type="System">
+                            <param id="0" name="Variable">TimeSpent</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2043762480786838" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2851943925735126" type="System">
+                            <param id="0" name="Variable">Lives</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="9459653010303615" type="System">
+                            <param id="0" name="Variable">SpawnTimer</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="4" name="Preload" sid="1228745531715988" type="Audio">
+                            <param id="0" name="Audio file">DolorRugbierNormal</param>
+                        </action>
+                        <action id="4" name="Preload" sid="670241883778488" type="Audio">
+                            <param id="0" name="Audio file">DolorRugbierRapido</param>
+                        </action>
+                        <action id="4" name="Preload" sid="8483870295190304" type="Audio">
+                            <param id="0" name="Audio file">DolorRugbirGordo</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="5100099371543112" type="System">
+                            <param id="0" name="Time scale">0.5</param>
+                        </action>
+                        <action id="0" name="Set text" sid="7350145688689005" type="Timer">
+                            <param id="0" name="Text">&quot;READY?&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1231864404847603">
+                    <conditions>
+                        <condition id="666" name="On initialised" sid="2138121522020608" type="RugbierNormal" />
+                    </conditions>
+                    <actions>
+                        <action id="666" name="Associate object type" sid="5071717524660667" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0000_LegColorBack</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0000_Leg-Color-Back&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="8961380141202094" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0000s_0000_Beaten-Color_000&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="2326110619874858" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0000s_0000_Beaten-Color_001&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="9610434140094246" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0000_Leg-Color-Back_000&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="2467686667411966" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0006s_0001_Back-Arm-Color_000&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="6003560527471235" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0006s_0000_Body-Color_000&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="2450616319564373" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0004s_0000_Leg-Color-Front_000&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="5733481287236283" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0003s_0000_Head-Norma&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="2603757096835099" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0005s_0000_Front-Arm-Color_000&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="8619760001271944" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0000s_0000_Beaten-Color_002&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="739780442328952" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0006s_0001_Back-Arm-Color&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="8913481430326753" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0006s_0000_Body-Color&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="4788055235720594" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0004s_0000_Leg-Color-Front&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="7890761948163082" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0000s_0000_Beaten-Color&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="502848875218926" type="RugbierNormal">
+                            <param id="0" name="Object">RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0005s_0000_Front-Arm-Color&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5276486029500007">
+                    <conditions>
+                        <condition id="666" name="On initialised" sid="1517011901485273" type="RugbierRapido" />
+                    </conditions>
+                    <actions>
+                        <action id="666" name="Associate object type" sid="7469999154160907" type="RugbierRapido">
+                            <param id="0" name="Object">RugbierRapido_entity_000_Rugbier_0009_BackThights</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0009_Back-Thights&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="7056025094881273" type="RugbierRapido">
+                            <param id="0" name="Object">RugbierRapido_entity_000_Rugbier_0010_BackLegColor</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0010_Back-Leg-Color&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="3007348438278054" type="RugbierRapido">
+                            <param id="0" name="Object">RugbierRapido_entity_000_Rugbier_0012_BackSoulder</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0012_Back-Soulder&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="6991222663925923" type="RugbierRapido">
+                            <param id="0" name="Object">RugbierRapido_entity_000_Rugbier_0011_BackArmColor</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0011_Back-Arm-Color&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="7155031656269312" type="RugbierRapido">
+                            <param id="0" name="Object">RugbierRapido_entity_000_Rugbier_0008_TorsoColor</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0008_Torso-Color&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="1257066021193566" type="RugbierRapido">
+                            <param id="0" name="Object">RugbierRapido_entity_000_Rugbier_0006_FrontThights</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0006_Front-Thights&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="3678542015814966" type="RugbierRapido">
+                            <param id="0" name="Object">RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0007_Front-Leg-Color&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="1910144465315101" type="RugbierRapido">
+                            <param id="0" name="Object">RugbierRapido_entity_000_Rugbier_0003_Normal</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0003_Normal&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="9429972812155104" type="RugbierRapido">
+                            <param id="0" name="Object">RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0005_Front-Shoulder&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2209741157416517">
+                    <conditions>
+                        <condition id="666" name="On initialised" sid="6306639755755138" type="RugbierGordo" />
+                    </conditions>
+                    <actions>
+                        <action id="666" name="Associate object type" sid="8351434244244426" type="RugbierGordo">
+                            <param id="0" name="Object">RugbierGordo_entity_000_Rugbier_0005_BackLeg</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0005_Back-Leg&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="2729186106695385" type="RugbierGordo">
+                            <param id="0" name="Object">RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0001s_0001_Back-Arm-Color&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="7273890970844683" type="RugbierGordo">
+                            <param id="0" name="Object">RugbierGordo_entity_000_Rugbier_0003_Torso</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0003_Torso&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="3057706265627299" type="RugbierGordo">
+                            <param id="0" name="Object">RugbierGordo_entity_000_Rugbier_0001_FrontLeg</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0001_Front-Leg&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="7055980930873275" type="RugbierGordo">
+                            <param id="0" name="Object">RugbierGordo_entity_000_Rugbier_0000_Head</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0000_Head&quot;</param>
+                        </action>
+                        <action id="666" name="Associate object type" sid="5320062713318429" type="RugbierGordo">
+                            <param id="0" name="Object">RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor</param>
+                            <param id="1" name="Name">&quot;entity_000_Rugbier_0001s_0000_Front-Arm-Color&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6672970579226897">
+                    <conditions>
+                        <condition id="-7" name="Compare time" sid="6320061659273779" type="System">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Time (seconds)">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="2034056215188639" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8651680189366087" type="Timer">
+                            <param id="0" name="Text">&quot;GO!&quot;</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="7820256400668294" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6115286256972428">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7293491215302792" type="System">
+                            <param id="0" name="Variable">SpawnTimer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0.7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="6113029242916877" type="System">
+                            <param id="0" name="Variable">SpawnTimer</param>
+                            <param id="1" name="Value">0.7</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Handles the spawn of every character over time" sid="2185379465390222" title="Spawner">
+            <sub-events>
+                <event-block sid="9453685403545286">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="1112770490546074" type="System">
+                            <param id="0" name="Interval (seconds)">SpawnTimer</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="5934381916255384" type="System">
+                            <param id="0" name="Variable">EnemySelection</param>
+                            <param id="1" name="Value">round(random(0,3) + 1)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="7817639807016739">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="726392339671403" type="System">
+                                    <param id="0" name="Variable">EnemySelection</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="690764411338193" type="System">
+                                    <param id="0" name="Object to create">RugbierGordo</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="X">Spawn1.X</param>
+                                    <param id="3" name="Y">choose(Spawn1.Y, Spawn2.Y, Spawn3.Y, Spawn4.Y)</param>
+                                </action>
+                                <action id="2" name="Set object scale ratio" sid="5263854911004321" type="RugbierGordo">
+                                    <param id="0" name="Scale Ratio">0.2</param>
+                                    <param id="1" name="Flip X Axis">0</param>
+                                    <param id="2" name="Flip Y Axis">0</param>
+                                </action>
+                                <action id="11" name="Set mirrored (on x axis)" sid="4460149217903078" type="RugbierGordo">
+                                    <param id="0" name="Mirror X Axis">1</param>
+                                </action>
+                                <action id="0" name="Set animation" sid="4145003756917591" type="RugbierGordo">
+                                    <param id="0" name="Animation">&quot;Run&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4149980447165322">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="9398502128825361" type="System">
+                                    <param id="0" name="Variable">EnemySelection</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="8761427700580981" type="System">
+                                    <param id="0" name="Object to create">RugbierRapido</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="X">Spawn1.X</param>
+                                    <param id="3" name="Y">choose(Spawn1.Y, Spawn2.Y, Spawn3.Y, Spawn4.Y)</param>
+                                </action>
+                                <action id="2" name="Set object scale ratio" sid="9098210097603905" type="RugbierRapido">
+                                    <param id="0" name="Scale Ratio">0.2</param>
+                                    <param id="1" name="Flip X Axis">0</param>
+                                    <param id="2" name="Flip Y Axis">0</param>
+                                </action>
+                                <action id="11" name="Set mirrored (on x axis)" sid="420354870025756" type="RugbierRapido">
+                                    <param id="0" name="Mirror X Axis">1</param>
+                                </action>
+                                <action id="0" name="Set animation" sid="4100679904268503" type="RugbierRapido">
+                                    <param id="0" name="Animation">&quot;Run&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2915605990992063">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="8181914368679299" type="System">
+                                    <param id="0" name="Variable">EnemySelection</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="189935222300392" type="System">
+                                    <param id="0" name="Object to create">RugbierNormal</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="X">Spawn1.X</param>
+                                    <param id="3" name="Y">choose(Spawn1.Y, Spawn2.Y, Spawn3.Y, Spawn4.Y)</param>
+                                </action>
+                                <action id="2" name="Set object scale ratio" sid="102292097129002" type="RugbierNormal">
+                                    <param id="0" name="Scale Ratio">0.2</param>
+                                    <param id="1" name="Flip X Axis">0</param>
+                                    <param id="2" name="Flip Y Axis">0</param>
+                                </action>
+                                <action id="11" name="Set mirrored (on x axis)" sid="4297429918544876" type="RugbierNormal">
+                                    <param id="0" name="Mirror X Axis">1</param>
+                                </action>
+                                <action id="0" name="Set animation" sid="419918030803754" type="RugbierNormal">
+                                    <param id="0" name="Animation">&quot;Run&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Handles the damage and despawning of characters" sid="2340868393906508" title="Combat">
+            <sub-events>
+                <event-group description="Handles the balls (lives)" sid="7155567177064001" title="Balls">
+                    <sub-events>
+                        <event-block any="1" sid="1987320095763042">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="5139353382109909" type="RugbierNormal">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">Outzone.X</param>
+                                </condition>
+                                <condition id="-1" name="Compare X" sid="6864843293010721" type="RugbierGordo">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">OutZone.X</param>
+                                </condition>
+                                <condition id="-1" name="Compare X" sid="7341134265108856" type="RugbierRapido">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">OutZone.X</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="5838838945902108" type="RugbierGordo" />
+                                <action id="-9" name="Destroy" sid="1804335618113642" type="RugbierNormal" />
+                                <action id="-9" name="Destroy" sid="5314614560566613" type="RugbierRapido" />
+                            </actions>
+                            <sub-events>
+                                <event-block sid="5686518300354176">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="4767269158519713" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-11" name="Subtract from" sid="8597488660927982" type="System">
+                                            <param id="0" name="Variable">Lives</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block any="1" sid="7849648231833611">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="8266035468649799" type="RugbierNormal">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">TouchdownZone.X</param>
+                                </condition>
+                                <condition id="-1" name="Compare X" sid="7697566945739983" type="RugbierGordo">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">TouchdownZone.X</param>
+                                </condition>
+                                <condition id="-1" name="Compare X" sid="8501010107366351" type="RugbierRapido">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">TouchdownZone.X</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="3751812189781575">
+                                    <conditions>
+                                        <condition id="-4" name="Trigger once while true" sid="8227992135330718" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set animation" sid="9349754365794032" type="RugbierGordo">
+                                            <param id="0" name="Animation">RugbierGordo.Health = 3 ? &quot;Touchdown&quot; : &quot;TouchdownDamage&quot;</param>
+                                            <param id="1" name="Where to start playing this animation">0</param>
+                                            <param id="2" name="Blend Duration">0</param>
+                                        </action>
+                                        <action id="0" name="Set animation" sid="123447696310851" type="RugbierNormal">
+                                            <param id="0" name="Animation">RugbierNormal.Health = 2 ? &quot;Touchdown&quot; : &quot;TouchdownDamage&quot;</param>
+                                            <param id="1" name="Where to start playing this animation">0</param>
+                                            <param id="2" name="Blend Duration">0</param>
+                                        </action>
+                                        <action id="0" name="Set animation" sid="9084907197228922" type="RugbierRapido">
+                                            <param id="0" name="Animation">RugbierRapido.Health = 1 ? &quot;Touchdown&quot; : &quot;TouchdownDamage&quot;</param>
+                                            <param id="1" name="Where to start playing this animation">0</param>
+                                            <param id="2" name="Blend Duration">0</param>
+                                        </action>
+                                        <action behavior="Bullet" id="0" name="Set speed" sid="1619991147602556" type="RugbierGordo">
+                                            <param id="0" name="Speed">200</param>
+                                        </action>
+                                        <action behavior="Bullet" id="0" name="Set speed" sid="2091973044267374" type="RugbierRapido">
+                                            <param id="0" name="Speed">200</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="376428422558443">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="201407444181072" type="System">
+                                    <param id="0" name="Variable">Lives</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="8919232384226814" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set time scale" sid="3201060141124094" type="System">
+                                    <param id="0" name="Time scale">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="2038666527937628" type="GameOver" />
+                                <action id="-14" name="Set object time scale" sid="1496552963737033" type="System">
+                                    <param id="0" name="Object">GameOver</param>
+                                    <param id="1" name="Time scale">1.0</param>
+                                </action>
+                                <action id="0" name="Play" sid="8604178082155995" type="Audio">
+                                    <param id="0" name="Audio file">SonidoEndGame</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="0" name="Report Score" sid="5422924339909824" type="LocalLeaderboards">
+                                    <param id="0" name="id">&quot;localLeaderboard&quot;</param>
+                                    <param id="1" name="score">Score&amp;&quot;/&quot;&amp;Timer.Text</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4158285473408396">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="1488213833911509" type="Touch">
+                                    <param id="0" name="Object">GameOver</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="1434426939341623" type="System">
+                                    <param id="0" name="First value">timescale</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="9021096302255406" type="System">
+                                    <param id="0" name="Layout">StartScreen</param>
+                                </action>
+                                <action id="33" name="Stop all" sid="9577837506362787" type="Audio" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="The combat specifics of the normal rugbier" sid="2997146588240506" title="Common Rugbier">
+                    <sub-events>
+                        <event-block sid="3004278504836788">
+                            <conditions>
+                                <condition id="4" name="Compare Current Animation" sid="5034063407196988" type="RugbierNormal">
+                                    <param id="0" name="Animation">&quot;Damage&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Bullet" id="0" name="Set speed" sid="5019149519858462" type="RugbierNormal">
+                                    <param id="0" name="Speed">50</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3935064184714905">
+                            <conditions>
+                                <condition id="0" name="On animation finished" sid="977420894719594" type="RugbierNormal">
+                                    <param id="0" name="Animation">&quot;Damage&quot;</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="4156308340951076" type="RugbierNormal">
+                                    <param id="0" name="Instance variable">Health</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set animation" sid="3323040629304602" type="RugbierNormal">
+                                    <param id="0" name="Animation">&quot;Run Damage&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                                <action behavior="Bullet" id="1" name="Set acceleration" sid="5643882204377334" type="RugbierNormal">
+                                    <param id="0" name="Acceleration">200</param>
+                                </action>
+                                <action behavior="Bullet" id="0" name="Set speed" sid="8308201580184454" type="RugbierNormal">
+                                    <param id="0" name="Speed">200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2135029182647305">
+                            <conditions>
+                                <condition id="4" name="Compare Current Animation" sid="7866580152828862" type="RugbierNormal">
+                                    <param id="0" name="Animation">&quot;Damage&quot;</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="1240206707978534" type="RugbierNormal">
+                                    <param id="0" name="Instance variable">Health</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set animation" sid="8877252127230264" type="RugbierNormal">
+                                    <param id="0" name="Animation">&quot;Damage Final&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                                <action behavior="Bullet" id="5" name="Set enabled" sid="9191108211085449" type="RugbierNormal">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="647208667990512" type="RugbierNormal" />
+                                <action id="-10" name="Add to" sid="4235686638875606" type="System">
+                                    <param id="0" name="Variable">Score</param>
+                                    <param id="1" name="Value">RugbierNormal.AwardedPoints</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9287822226765452">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="3942334912011892" type="Touch">
+                                    <param id="0" name="Object">RugbierNormal</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Compare Current Animation" sid="6000338622570967" type="RugbierNormal">
+                                    <param id="0" name="Animation">&quot;Damage Final&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-12" name="Subtract from" sid="6926899971279578" type="RugbierNormal">
+                                    <param id="0" name="Instance variable">Health</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set animation" sid="7074941107771606" type="RugbierNormal">
+                                    <param id="0" name="Animation">&quot;Damage&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="5818847421141164" type="System">
+                                    <param id="0" name="Object to create">Particles</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">Touch.X</param>
+                                    <param id="3" name="Y">Touch.Y</param>
+                                </action>
+                                <action id="24" name="Play at position" sid="6784465013407973" type="Audio">
+                                    <param id="0" name="Audio file">DolorRugbierNormal</param>
+                                    <param id="1" name="Loop">0</param>
+                                    <param id="2" name="Volume">-5</param>
+                                    <param id="3" name="X">Touch.X</param>
+                                    <param id="4" name="Y">Touch.Y</param>
+                                    <param id="5" name="Angle">0</param>
+                                    <param id="6" name="Inner angle">360</param>
+                                    <param id="7" name="Outer angle">360</param>
+                                    <param id="8" name="Outer gain">0</param>
+                                    <param id="9" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-11" name="Subtract from" sid="6033767838481085" type="System">
+                                    <param id="0" name="Variable">SpawnTimer</param>
+                                    <param id="1" name="Value">0.02</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="The combat specifics of the fat rugbier" sid="4122758236092075" title="Fat rugbier">
+                    <sub-events>
+                        <event-block sid="3935064184714905">
+                            <conditions>
+                                <condition id="0" name="On animation finished" sid="977420894719594" type="RugbierGordo">
+                                    <param id="0" name="Animation">&quot;Damage&quot;</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="4156308340951076" type="RugbierGordo">
+                                    <param id="0" name="Instance variable">Health</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set animation" sid="3323040629304602" type="RugbierGordo">
+                                    <param id="0" name="Animation">&quot;RunDamage&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2135029182647305">
+                            <conditions>
+                                <condition id="4" name="Compare Current Animation" sid="7866580152828862" type="RugbierGordo">
+                                    <param id="0" name="Animation">&quot;Damage&quot;</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="1240206707978534" type="RugbierGordo">
+                                    <param id="0" name="Instance variable">Health</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set animation" sid="8877252127230264" type="RugbierGordo">
+                                    <param id="0" name="Animation">&quot;DamageFinal&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                                <action behavior="Bullet" id="5" name="Set enabled" sid="9191108211085449" type="RugbierGordo">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="647208667990512" type="RugbierGordo" />
+                                <action id="-10" name="Add to" sid="3101000664123837" type="System">
+                                    <param id="0" name="Variable">Score</param>
+                                    <param id="1" name="Value">RugbierGordo.AwardedPoints</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9287822226765452">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="3942334912011892" type="Touch">
+                                    <param id="0" name="Object">RugbierGordo</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Compare Current Animation" sid="8807924269910969" type="RugbierGordo">
+                                    <param id="0" name="Animation">&quot;DamageFinal&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-12" name="Subtract from" sid="6926899971279578" type="RugbierGordo">
+                                    <param id="0" name="Instance variable">Health</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set animation" sid="7074941107771606" type="RugbierGordo">
+                                    <param id="0" name="Animation">&quot;Damage&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="3850775857726337" type="System">
+                                    <param id="0" name="Object to create">Particles</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">Touch.X</param>
+                                    <param id="3" name="Y">Touch.Y</param>
+                                </action>
+                                <action id="24" name="Play at position" sid="8945648337675867" type="Audio">
+                                    <param id="0" name="Audio file">DolorRugbirGordo</param>
+                                    <param id="1" name="Loop">0</param>
+                                    <param id="2" name="Volume">-5</param>
+                                    <param id="3" name="X">Touch.X</param>
+                                    <param id="4" name="Y">Touch.Y</param>
+                                    <param id="5" name="Angle">0</param>
+                                    <param id="6" name="Inner angle">360</param>
+                                    <param id="7" name="Outer angle">360</param>
+                                    <param id="8" name="Outer gain">0</param>
+                                    <param id="9" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-11" name="Subtract from" sid="7897587507066557" type="System">
+                                    <param id="0" name="Variable">SpawnTimer</param>
+                                    <param id="1" name="Value">0.02</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="The combat specifics of the fast rugbier" sid="7780777741205735" title="Fast Rugbier">
+                    <sub-events>
+                        <event-block sid="3935064184714905">
+                            <conditions>
+                                <condition id="0" name="On animation finished" sid="977420894719594" type="RugbierRapido">
+                                    <param id="0" name="Animation">&quot;Damage&quot;</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="4156308340951076" type="RugbierRapido">
+                                    <param id="0" name="Instance variable">Health</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set animation" sid="3323040629304602" type="RugbierRapido">
+                                    <param id="0" name="Animation">&quot;RunDamage&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2135029182647305">
+                            <conditions>
+                                <condition id="4" name="Compare Current Animation" sid="7866580152828862" type="RugbierRapido">
+                                    <param id="0" name="Animation">&quot;Damage&quot;</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="1240206707978534" type="RugbierRapido">
+                                    <param id="0" name="Instance variable">Health</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="9400082725831742" type="System">
+                                    <param id="0" name="Variable">Score</param>
+                                    <param id="1" name="Value">RugbierRapido.AwardedPoints</param>
+                                </action>
+                                <action id="0" name="Set animation" sid="8877252127230264" type="RugbierRapido">
+                                    <param id="0" name="Animation">&quot;DamageFinal&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                                <action behavior="Bullet" id="5" name="Set enabled" sid="9191108211085449" type="RugbierRapido">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="647208667990512" type="RugbierRapido" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="9287822226765452">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="3942334912011892" type="Touch">
+                                    <param id="0" name="Object">RugbierRapido</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Compare Current Animation" sid="971347695214801" type="RugbierRapido">
+                                    <param id="0" name="Animation">&quot;DamageFinal&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-12" name="Subtract from" sid="6926899971279578" type="RugbierRapido">
+                                    <param id="0" name="Instance variable">Health</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set animation" sid="7074941107771606" type="RugbierRapido">
+                                    <param id="0" name="Animation">&quot;Damage&quot;</param>
+                                    <param id="1" name="Where to start playing this animation">0</param>
+                                    <param id="2" name="Blend Duration">0</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="1340390261497486" type="System">
+                                    <param id="0" name="Object to create">Particles</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">Touch.X</param>
+                                    <param id="3" name="Y">Touch.Y</param>
+                                </action>
+                                <action id="24" name="Play at position" sid="6601663066114148" type="Audio">
+                                    <param id="0" name="Audio file">DolorRugbierRapido</param>
+                                    <param id="1" name="Loop">0</param>
+                                    <param id="2" name="Volume">-5</param>
+                                    <param id="3" name="X">Touch.X</param>
+                                    <param id="4" name="Y">Touch.Y</param>
+                                    <param id="5" name="Angle">0</param>
+                                    <param id="6" name="Inner angle">360</param>
+                                    <param id="7" name="Outer angle">360</param>
+                                    <param id="8" name="Outer gain">0</param>
+                                    <param id="9" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-11" name="Subtract from" sid="2222184981199361" type="System">
+                                    <param id="0" name="Variable">SpawnTimer</param>
+                                    <param id="1" name="Value">0.02</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="Handles the textbox on the layout" sid="8459809648957838" title="Texts">
+            <sub-events>
+                <event-block sid="9014586881185762">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="2874552727525188" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="5756089577950215" type="System">
+                            <param id="0" name="Variable">TimeSpent</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3938177660874076" type="Score">
+                            <param id="0" name="Text">&quot;&quot;&amp;Score</param>
+                        </action>
+                        <action id="0" name="Set text" sid="2121198961468197" type="Balls">
+                            <param id="0" name="Text">&quot;:0&quot;&amp;Lives</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="6246021307898517">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="5658812579739536" type="System">
+                                    <param id="0" name="Variable">TimeSpent</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="7907344824545722" type="Timer">
+                                    <param id="0" name="Text">&quot;00:0&quot;&amp;TimeSpent</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6023032228813749">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="1842984207088542" type="System">
+                                    <param id="0" name="Variable">TimeSpent</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="9974289771051892" type="Timer">
+                                    <param id="0" name="Text">&quot;00:&quot;&amp;TimeSpent</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="503922109851912">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="8007033231858009" type="System">
+                                    <param id="0" name="Variable">TimeSpent</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">60</param>
+                                </condition>
+                                <condition id="-8" inverted="1" name="Compare two values" sid="7363487192392484" type="System">
+                                    <param id="0" name="First value">TimeSpent-floor(60*floor(TimeSpent/60))</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="3320491829656336" type="Timer">
+                                    <param id="0" name="Text">&quot;0&quot;&amp;floor(TimeSpent/60)&amp;&quot;:&quot;&amp;TimeSpent - floor(60*floor(TimeSpent/60))</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4920392975128001">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="1153449050334194" type="System">
+                                    <param id="0" name="Variable">TimeSpent</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">60</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="4623617490502153" type="System">
+                                    <param id="0" name="First value">TimeSpent-floor(60*floor(TimeSpent/60))</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="6423190653906315" type="Timer">
+                                    <param id="0" name="Text">&quot;0&quot;&amp;floor(TimeSpent/60)&amp;&quot;:00&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

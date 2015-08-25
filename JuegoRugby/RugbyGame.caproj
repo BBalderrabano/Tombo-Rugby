@@ -1,0 +1,1651 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>RugbyGame</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author>Balderrabano Bruno, Mauro Rey</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>21202</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="0plus1" id="LL" version="1">Local Leaderboards</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="BrashMonkey" id="Spriter" version="1">Scml</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>480</width>
+        <height>640</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">Yes</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="RugbierGordo sprites">
+            <object-type name="RugbierGordo_entity_000_Rugbier_0005_BackLeg" sid="1567377378505017">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierGordo</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0005_BackLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0003_Torso</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001_FrontLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0000_Head</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5975242673096173" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Gordo Ani\Rugbier_0005_Back-Leg.png">
+                            <collision-poly>
+                                <point x="0.173611" y="0.108696" />
+                                <point x="0.5" y="0.00434783" />
+                                <point x="0.888889" y="0.0695652" />
+                                <point x="0.944444" y="0.5" />
+                                <point x="0.736111" y="0.834783" />
+                                <point x="0.5" y="0.973913" />
+                                <point x="0.0416667" y="0.973913" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor" sid="1397182638974573">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierGordo</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0005_BackLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0003_Torso</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001_FrontLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0000_Head</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5978419586028166" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Gordo Ani\Rugbier_0001s_0001_Back-Arm-Color.png">
+                            <collision-poly>
+                                <point x="0.0978261" y="0.163636" />
+                                <point x="0.5" y="0.4" />
+                                <point x="0.891304" y="0.181818" />
+                                <point x="0.98913" y="0.5" />
+                                <point x="0.853261" y="0.754545" />
+                                <point x="0.5" y="0.981818" />
+                                <point x="0.152174" y="0.745455" />
+                                <point x="0.0217391" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierGordo_entity_000_Rugbier_0003_Torso" sid="4234180594804298">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierGordo</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0005_BackLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0003_Torso</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001_FrontLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0000_Head</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3504921674785572" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Gordo Ani\Rugbier_0003_Torso.png">
+                            <collision-poly>
+                                <point x="0.232843" y="0.2375" />
+                                <point x="0.5" y="0.135" />
+                                <point x="0.813725" y="0.19" />
+                                <point x="0.904412" y="0.5" />
+                                <point x="0.872549" y="0.87" />
+                                <point x="0.5" y="0.9925" />
+                                <point x="0.0980392" y="0.9" />
+                                <point x="0.0906863" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierGordo_entity_000_Rugbier_0001_FrontLeg" sid="4673733387921218">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierGordo</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0005_BackLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0003_Torso</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001_FrontLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0000_Head</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="185480875333408" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Gordo Ani\Rugbier_0001_Front-Leg.png">
+                            <collision-poly>
+                                <point x="0.154412" y="0.0901288" />
+                                <point x="0.5" y="0" />
+                                <point x="0.882353" y="0.0686695" />
+                                <point x="0.941176" y="0.497854" />
+                                <point x="0.757353" y="0.858369" />
+                                <point x="0.5" y="0.965665" />
+                                <point x="0.0441176" y="0.974249" />
+                                <point x="0.0808824" y="0.497854" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierGordo_entity_000_Rugbier_0000_Head" sid="3277811737680299">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierGordo</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0005_BackLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0003_Torso</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001_FrontLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0000_Head</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4182230097344043" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Gordo Ani\Rugbier_0000_Head.png">
+                            <collision-poly>
+                                <point x="0.15655" y="0.12069" />
+                                <point x="0.498403" y="0.00985222" />
+                                <point x="0.86901" y="0.100985" />
+                                <point x="0.891374" y="0.5" />
+                                <point x="0.773163" y="0.825123" />
+                                <point x="0.498403" y="0.997537" />
+                                <point x="0.0734824" y="0.94335" />
+                                <point x="0.223642" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Gordo Ani\Rugbier_0002s_0000_Head-Beaten.png">
+                            <collision-poly>
+                                <point x="0.14497" y="0.124682" />
+                                <point x="0.5" y="0.00763359" />
+                                <point x="0.825444" y="0.150127" />
+                                <point x="0.994083" y="0.498728" />
+                                <point x="0.715976" y="0.755725" />
+                                <point x="0.5" y="0.992366" />
+                                <point x="0.0710059" y="0.938931" />
+                                <point x="0.210059" y="0.498728" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Gordo Ani\Rugbier_0004s_0000_Head-Happy.png">
+                            <collision-poly>
+                                <point x="0.167808" y="0.120098" />
+                                <point x="0.5" y="0.00980392" />
+                                <point x="0.890411" y="0.0784314" />
+                                <point x="0.955479" y="0.5" />
+                                <point x="0.825342" y="0.875" />
+                                <point x="0.5" y="0.995098" />
+                                <point x="0.0684932" y="0.95098" />
+                                <point x="0.243151" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor" sid="1280915928582349">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierGordo</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0005_BackLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0003_Torso</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001_FrontLeg</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0000_Head</type>
+                    <type>RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5270398398711033" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Gordo Ani\Rugbier_0001s_0000_Front-Arm-Color.png">
+                            <collision-poly>
+                                <point x="0.171598" y="0.151042" />
+                                <point x="0.497041" y="0.1875" />
+                                <point x="0.887574" y="0.0989583" />
+                                <point x="0.976331" y="0.5" />
+                                <point x="0.769231" y="0.796875" />
+                                <point x="0.497041" y="0.890625" />
+                                <point x="0.201183" y="0.822917" />
+                                <point x="0.0946746" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="RugbierNormal sprites">
+            <object-type name="RugbierNormal_entity_000_Rugbier_0000_LegColorBack" sid="7160161342625621">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5045860729258631" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0000_Leg-Color-Back.png">
+                            <collision-poly>
+                                <point x="0.316176" y="0.182203" />
+                                <point x="0.5" y="0.0338983" />
+                                <point x="0.919118" y="0.0466102" />
+                                <point x="0.713235" y="0.5" />
+                                <point x="0.764706" y="0.864407" />
+                                <point x="0.5" y="0.957627" />
+                                <point x="0.0294118" y="0.983051" />
+                                <point x="0.286765" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000" sid="7834481284918606">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9444844881891332" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0000s_0000_Beaten-Color.png">
+                            <collision-poly>
+                                <point x="0.0750552" y="0.0974212" />
+                                <point x="0.498896" y="0.26361" />
+                                <point x="0.348786" y="0.845272" />
+                                <point x="0.525386" y="0.498567" />
+                                <point x="0.529801" y="0.389685" />
+                                <point x="0.498896" y="0.518625" />
+                                <point x="0.0993377" y="0.87106" />
+                                <point x="0.0750552" y="0.498567" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001" sid="2462901069167002">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1828507988348307" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0000s_0000_Beaten-Color.png">
+                            <collision-poly>
+                                <point x="0.0750552" y="0.0974212" />
+                                <point x="0.498896" y="0.26361" />
+                                <point x="0.348786" y="0.845272" />
+                                <point x="0.525386" y="0.498567" />
+                                <point x="0.529801" y="0.389685" />
+                                <point x="0.498896" y="0.518625" />
+                                <point x="0.0993377" y="0.87106" />
+                                <point x="0.0750552" y="0.498567" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000" sid="238731652159396">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1281428276893134" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0000_Leg-Color-Back.png">
+                            <collision-poly>
+                                <point x="0.316176" y="0.182203" />
+                                <point x="0.5" y="0.0338983" />
+                                <point x="0.919118" y="0.0466102" />
+                                <point x="0.713235" y="0.5" />
+                                <point x="0.764706" y="0.864407" />
+                                <point x="0.5" y="0.957627" />
+                                <point x="0.0294118" y="0.983051" />
+                                <point x="0.286765" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000" sid="4574010671565421">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4871374078427732" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0006s_0001_Back-Arm-Color.png">
+                            <collision-poly>
+                                <point x="0.515152" y="0.542553" />
+                                <point x="0.5" y="0.351064" />
+                                <point x="0.90404" y="0.101064" />
+                                <point x="0.964646" y="0.5" />
+                                <point x="0.772727" y="0.760638" />
+                                <point x="0.5" y="0.909574" />
+                                <point x="0.0707071" y="0.925532" />
+                                <point x="0.5" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000" sid="7313158744794363">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="774949190816862" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0006s_0000_Body-Color.png">
+                            <collision-poly>
+                                <point x="0.0979592" y="0.0693642" />
+                                <point x="0.497959" y="0.00867052" />
+                                <point x="0.844898" y="0.109827" />
+                                <point x="0.844898" y="0.5" />
+                                <point x="0.812245" y="0.867052" />
+                                <point x="0.497959" y="0.99711" />
+                                <point x="0.179592" y="0.872832" />
+                                <point x="0.159184" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000" sid="5327280275578362">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5375635069436977" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0004s_0000_Leg-Color-Front.png">
+                            <collision-poly>
+                                <point x="0.198198" y="0.0869565" />
+                                <point x="0.495495" y="0.00790514" />
+                                <point x="0.837838" y="0.0711462" />
+                                <point x="0.747748" y="0.498024" />
+                                <point x="0.765766" y="0.897233" />
+                                <point x="0.495495" y="0.956522" />
+                                <point x="0.126126" y="0.944664" />
+                                <point x="0.225225" y="0.498024" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma" sid="1921859397200859">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="128613708042553" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0003s_0000_Head-Norma.png">
+                            <collision-poly>
+                                <point x="0.0750552" y="0.0979827" />
+                                <point x="0.498896" y="0.26513" />
+                                <point x="0.357616" y="0.838617" />
+                                <point x="0.525386" y="0.498559" />
+                                <point x="0.532009" y="0.389049" />
+                                <point x="0.498896" y="0.521614" />
+                                <point x="0.103753" y="0.864553" />
+                                <point x="0.0794702" y="0.498559" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0001s_0000_Happy-Color.png">
+                            <collision-poly>
+                                <point x="0.0750552" y="0.0979827" />
+                                <point x="0.498896" y="0.26513" />
+                                <point x="0.353201" y="0.84438" />
+                                <point x="0.525386" y="0.498559" />
+                                <point x="0.532009" y="0.389049" />
+                                <point x="0.498896" y="0.521614" />
+                                <point x="0.101545" y="0.867435" />
+                                <point x="0.0750552" y="0.498559" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0000s_0000_Beaten-Color.png">
+                            <collision-poly>
+                                <point x="0.0750552" y="0.0974212" />
+                                <point x="0.498896" y="0.26361" />
+                                <point x="0.348786" y="0.845272" />
+                                <point x="0.525386" y="0.498567" />
+                                <point x="0.529801" y="0.389685" />
+                                <point x="0.498896" y="0.518625" />
+                                <point x="0.0993377" y="0.87106" />
+                                <point x="0.0750552" y="0.498567" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000" sid="7193517167330688">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7552011122154718" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0005s_0000_Front-Arm-Color.png">
+                            <collision-poly>
+                                <point x="0.131068" y="0.150838" />
+                                <point x="0.5" y="0.240223" />
+                                <point x="0.936893" y="0.0726257" />
+                                <point x="0.975728" y="0.497207" />
+                                <point x="0.834951" y="0.810056" />
+                                <point x="0.5" y="0.994413" />
+                                <point x="0.150485" y="0.826816" />
+                                <point x="0.0582524" y="0.497207" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002" sid="8426478151870909">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4733697592159819" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0000s_0000_Beaten-Color.png">
+                            <collision-poly>
+                                <point x="0.0750552" y="0.0974212" />
+                                <point x="0.498896" y="0.26361" />
+                                <point x="0.348786" y="0.845272" />
+                                <point x="0.525386" y="0.498567" />
+                                <point x="0.529801" y="0.389685" />
+                                <point x="0.498896" y="0.518625" />
+                                <point x="0.0993377" y="0.87106" />
+                                <point x="0.0750552" y="0.498567" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor" sid="610523324530164">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9285368980291393" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0006s_0001_Back-Arm-Color.png">
+                            <collision-poly>
+                                <point x="0.515152" y="0.542553" />
+                                <point x="0.5" y="0.351064" />
+                                <point x="0.90404" y="0.101064" />
+                                <point x="0.964646" y="0.5" />
+                                <point x="0.772727" y="0.760638" />
+                                <point x="0.5" y="0.909574" />
+                                <point x="0.0707071" y="0.925532" />
+                                <point x="0.5" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor" sid="8614501160232703">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8491838186756027" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0006s_0000_Body-Color.png">
+                            <collision-poly>
+                                <point x="0.0979592" y="0.0693642" />
+                                <point x="0.497959" y="0.00867052" />
+                                <point x="0.844898" y="0.109827" />
+                                <point x="0.844898" y="0.5" />
+                                <point x="0.812245" y="0.867052" />
+                                <point x="0.497959" y="0.99711" />
+                                <point x="0.179592" y="0.872832" />
+                                <point x="0.159184" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront" sid="3850129532732083">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7263506182024434" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0004s_0000_Leg-Color-Front.png">
+                            <collision-poly>
+                                <point x="0.198198" y="0.0869565" />
+                                <point x="0.495495" y="0.00790514" />
+                                <point x="0.837838" y="0.0711462" />
+                                <point x="0.747748" y="0.498024" />
+                                <point x="0.765766" y="0.897233" />
+                                <point x="0.495495" y="0.956522" />
+                                <point x="0.126126" y="0.944664" />
+                                <point x="0.225225" y="0.498024" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor" sid="3763040814993279">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6587726485430937" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0000s_0000_Beaten-Color.png">
+                            <collision-poly>
+                                <point x="0.0750552" y="0.0974212" />
+                                <point x="0.498896" y="0.26361" />
+                                <point x="0.348786" y="0.845272" />
+                                <point x="0.525386" y="0.498567" />
+                                <point x="0.529801" y="0.389685" />
+                                <point x="0.498896" y="0.518625" />
+                                <point x="0.0993377" y="0.87106" />
+                                <point x="0.0750552" y="0.498567" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor" sid="8238601070581218">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierNormal</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                    <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3629698491453426" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Normal Ani\Rugbier_0005s_0000_Front-Arm-Color.png">
+                            <collision-poly>
+                                <point x="0.131068" y="0.150838" />
+                                <point x="0.5" y="0.240223" />
+                                <point x="0.936893" y="0.0726257" />
+                                <point x="0.975728" y="0.497207" />
+                                <point x="0.834951" y="0.810056" />
+                                <point x="0.5" y="0.994413" />
+                                <point x="0.150485" y="0.826816" />
+                                <point x="0.0582524" y="0.497207" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="RugbierRapido sprites">
+            <object-type name="RugbierRapido_entity_000_Rugbier_0009_BackThights" sid="372360705256031">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierRapido</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0009_BackThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0006_FrontThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0003_Normal</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2406547535211751" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0009_Back-Thights.png">
+                            <collision-poly>
+                                <point x="0.362416" y="0.321429" />
+                                <point x="0.496644" y="0.0952381" />
+                                <point x="0.926175" y="0.0654762" />
+                                <point x="0.885906" y="0.5" />
+                                <point x="0.677852" y="0.714286" />
+                                <point x="0.496644" y="0.809524" />
+                                <point x="0.0805369" y="0.928571" />
+                                <point x="0.214765" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierRapido_entity_000_Rugbier_0010_BackLegColor" sid="1740372988937022">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierRapido</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0009_BackThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0006_FrontThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0003_Normal</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1522587399855044" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0010_Back-Leg-Color.png">
+                            <collision-poly>
+                                <point x="0.0507246" y="0.037037" />
+                                <point x="0.5" y="0.132275" />
+                                <point x="0.637681" y="0.26455" />
+                                <point x="0.956522" y="0.497355" />
+                                <point x="0.76087" y="0.825397" />
+                                <point x="0.5" y="0.968254" />
+                                <point x="0.550725" y="0.597884" />
+                                <point x="0.413043" y="0.497355" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierRapido_entity_000_Rugbier_0012_BackSoulder" sid="5297355207845198">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierRapido</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0009_BackThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0006_FrontThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0003_Normal</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6453962059864836" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0012_Back-Soulder.png">
+                            <collision-poly>
+                                <point x="0.127854" y="0.259259" />
+                                <point x="0.931507" y="0.138889" />
+                                <point x="0.977169" y="0.5" />
+                                <point x="0.90411" y="0.805556" />
+                                <point x="0.114155" y="0.768519" />
+                                <point x="0.00456621" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierRapido_entity_000_Rugbier_0011_BackArmColor" sid="1735521308113037">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierRapido</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0009_BackThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0006_FrontThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0003_Normal</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1590565273122498" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0011_Back-Arm-Color.png">
+                            <collision-poly>
+                                <point x="0.0608108" y="0.108434" />
+                                <point x="0.5" y="0.409639" />
+                                <point x="0.77027" y="0.409639" />
+                                <point x="0.972973" y="0.493976" />
+                                <point x="0.945946" y="0.903614" />
+                                <point x="0.5" y="0.903614" />
+                                <point x="0.108108" y="0.807229" />
+                                <point x="0.00675676" y="0.493976" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierRapido_entity_000_Rugbier_0008_TorsoColor" sid="6983459954435181">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierRapido</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0009_BackThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0006_FrontThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0003_Normal</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4678637815083038" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0008_Torso-Color.png">
+                            <collision-poly>
+                                <point x="0.0996785" y="0.0801034" />
+                                <point x="0.498392" y="0.0103359" />
+                                <point x="0.768489" y="0.186047" />
+                                <point x="0.813505" y="0.498708" />
+                                <point x="0.92926" y="0.943152" />
+                                <point x="0.498392" y="0.98708" />
+                                <point x="0.202572" y="0.837209" />
+                                <point x="0.144695" y="0.498708" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierRapido_entity_000_Rugbier_0006_FrontThights" sid="5339855834385195">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierRapido</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0009_BackThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0006_FrontThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0003_Normal</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4539573946882781" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0006_Front-Thights.png">
+                            <collision-poly>
+                                <point x="0.242105" y="0.121693" />
+                                <point x="0.494737" y="0.0793651" />
+                                <point x="0.747368" y="0.126984" />
+                                <point x="0.936842" y="0.497355" />
+                                <point x="0.705263" y="0.851852" />
+                                <point x="0.494737" y="0.952381" />
+                                <point x="0.115789" y="0.941799" />
+                                <point x="0.0947368" y="0.497355" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierRapido_entity_000_Rugbier_0007_FrontLegColor" sid="3643066073363224">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierRapido</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0009_BackThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0006_FrontThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0003_Normal</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9253810570124094" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0007_Front-Leg-Color.png">
+                            <collision-poly>
+                                <point x="0.048951" y="0.0351759" />
+                                <point x="0.496504" y="0.170854" />
+                                <point x="0.629371" y="0.266332" />
+                                <point x="0.909091" y="0.497487" />
+                                <point x="0.769231" y="0.834171" />
+                                <point x="0.496504" y="0.974874" />
+                                <point x="0.545455" y="0.60804" />
+                                <point x="0.405594" y="0.497487" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierRapido_entity_000_Rugbier_0003_Normal" sid="4762639411333278">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierRapido</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0009_BackThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0006_FrontThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0003_Normal</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="485678218030977" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0003_Normal.png">
+                            <collision-poly>
+                                <point x="0.0786164" y="0.0771605" />
+                                <point x="0.5" y="0.0462963" />
+                                <point x="0.849057" y="0.148148" />
+                                <point x="0.993711" y="0.5" />
+                                <point x="0.72327" y="0.728395" />
+                                <point x="0.5" y="0.984568" />
+                                <point x="0.204403" y="0.799383" />
+                                <point x="0.132075" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0002_Happy.png">
+                            <collision-poly>
+                                <point x="0.0786164" y="0.0771605" />
+                                <point x="0.5" y="0.0462963" />
+                                <point x="0.849057" y="0.148148" />
+                                <point x="0.993711" y="0.5" />
+                                <point x="0.72327" y="0.728395" />
+                                <point x="0.5" y="0.984568" />
+                                <point x="0.204403" y="0.799383" />
+                                <point x="0.132075" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0001_Wounded.png">
+                            <collision-poly>
+                                <point x="0.15015" y="0.144509" />
+                                <point x="0.498498" y="0.0520231" />
+                                <point x="0.78979" y="0.202312" />
+                                <point x="0.978979" y="0.5" />
+                                <point x="0.771772" y="0.780347" />
+                                <point x="0.498498" y="0.988439" />
+                                <point x="0.231231" y="0.777457" />
+                                <point x="0.15015" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RugbierRapido_entity_000_Rugbier_0005_FrontShoulder" sid="6124471933506136">
+                <plugin id="Sprite" />
+                <container>
+                    <type>RugbierRapido</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0009_BackThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0006_FrontThights</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0003_Normal</type>
+                    <type>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5368671989506701" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Bruno\Desktop\Rugbier Rapido Ani\Rugbier_0005_Front-Shoulder.png">
+                            <collision-poly>
+                                <point x="0.2287" y="0.240566" />
+                                <point x="0.497758" y="0.0330189" />
+                                <point x="0.892377" y="0.113208" />
+                                <point x="0.928251" y="0.5" />
+                                <point x="0.717489" y="0.70283" />
+                                <point x="0.497758" y="0.84434" />
+                                <point x="0.165919" y="0.825472" />
+                                <point x="0.215247" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="Background" sid="7782011655755977">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6388207630323049" speed="5">
+                    <frame duration="1" hotspotX="0.500921" hotspotY="0.500678" original-source="C:\Users\Bruno\Desktop\CanchaExpandidaResize.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Spawn1" sid="3599560449970776">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4643725538272624" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Spawn2" sid="2111560612163289">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9675227754074533" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Spawn3" sid="9304551751242532">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2690050014959665" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Spawn4" sid="815479431200787">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8708944091416648" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Timer" sid="5307543445213325">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="RugbierGordo" sid="9507288425926721">
+            <plugin id="Spriter" />
+            <instance-variables>
+                <instance-variable comment="Amount of taps it takes to beat the enemy" name="Health" sid="9105458380328798" type="number" />
+                <instance-variable comment="Points awarded on kill" name="AwardedPoints" sid="4043112368237243" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="7449592150254931">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="328488626599256">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>RugbierGordo</type>
+                <type>RugbierGordo_entity_000_Rugbier_0005_BackLeg</type>
+                <type>RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor</type>
+                <type>RugbierGordo_entity_000_Rugbier_0003_Torso</type>
+                <type>RugbierGordo_entity_000_Rugbier_0001_FrontLeg</type>
+                <type>RugbierGordo_entity_000_Rugbier_0000_Head</type>
+                <type>RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor</type>
+            </container>
+        </object-type>
+        <object-type name="RugbierNormal" sid="288023089180776">
+            <plugin id="Spriter" />
+            <instance-variables>
+                <instance-variable comment="The amount of taps it takes to kill the rugbier" name="Health" sid="3157416349598345" type="number" />
+                <instance-variable comment="Points awarded on kill" name="AwardedPoints" sid="6129796920834679" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="7800202078800721">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="7332221458686808">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="3536542965710949">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>RugbierNormal</type>
+                <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</type>
+                <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</type>
+                <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</type>
+                <type>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</type>
+                <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</type>
+                <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</type>
+                <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</type>
+                <type>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</type>
+                <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</type>
+                <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</type>
+                <type>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</type>
+                <type>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</type>
+                <type>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</type>
+                <type>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</type>
+                <type>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</type>
+            </container>
+        </object-type>
+        <object-type name="Rugbier" sid="7954099910701654">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Rugbier" sid="8448844267990593" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="56028224368696" speed="5">
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RugbierRapido" sid="1870336706598869">
+            <plugin id="Spriter" />
+            <instance-variables>
+                <instance-variable comment="The amount of taps it takes to kill the rugbier" name="Health" sid="589473131518768" type="number" />
+                <instance-variable comment="Points awarded on kill" name="AwardedPoints" sid="4213813542538697" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="9503744984379781">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="5462946685636979">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>RugbierRapido</type>
+                <type>RugbierRapido_entity_000_Rugbier_0009_BackThights</type>
+                <type>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</type>
+                <type>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</type>
+                <type>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</type>
+                <type>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</type>
+                <type>RugbierRapido_entity_000_Rugbier_0006_FrontThights</type>
+                <type>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</type>
+                <type>RugbierRapido_entity_000_Rugbier_0003_Normal</type>
+                <type>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</type>
+            </container>
+        </object-type>
+        <object-type name="Touch" sid="5622192821988997">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="ScoreBoard" sid="8821249887349992">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3973533123881043" speed="5">
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.503817" original-source="C:\Users\Bruno\Desktop\TableroRezise.png">
+                        <collision-poly>
+                            <point x="0.0165485" y="0.0290456" />
+                            <point x="0.498818" y="0.0124481" />
+                            <point x="0.985816" y="0.0248963" />
+                            <point x="0.983452" y="0.970954" />
+                            <point x="0.498818" y="0.983402" />
+                            <point x="0.0212766" y="0.962656" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScoreText" sid="3215151393084001">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="BallsText" sid="788549390123532">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Score" sid="1399685495680649">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Balls" sid="543226329196769">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="RugbyBall" sid="6673493398407795">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4704546485644949" speed="5">
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="C:\Users\Bruno\Downloads\Bocha.png">
+                        <collision-poly>
+                            <point x="0.239583" y="0.149351" />
+                            <point x="0.5" y="0.0616883" />
+                            <point x="0.75" y="0.155844" />
+                            <point x="0.875" y="0.5" />
+                            <point x="0.729167" y="0.831169" />
+                            <point x="0.5" y="0.899351" />
+                            <point x="0.260417" y="0.837662" />
+                            <point x="0.104167" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="3237640660088941">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="OutZone" sid="6969373426492691">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3160542371733066" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="9135445862916113">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="StartBkg" sid="4562509834196248">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7820260212755896" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Bruno\Desktop\StartFondoResize.png">
+                        <collision-poly>
+                            <point x="0.0172414" y="0.0116279" />
+                            <point x="0.977012" y="0.0155039" />
+                            <point x="0.977012" y="0.984496" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="StartScoreboard" sid="8858733604187728">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9385698183406749" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Bruno\Desktop\Scoreboard.png">
+                        <collision-poly>
+                            <point x="0.113889" y="0.144366" />
+                            <point x="0.5" y="0.0246479" />
+                            <point x="0.891667" y="0.137324" />
+                            <point x="0.877778" y="0.84507" />
+                            <point x="0.122222" y="0.84507" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="4548452732192228">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1451145409798464" speed="5">
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="C:\Users\Bruno\Desktop\FondoStart.png">
+                        <collision-poly>
+                            <point x="0.0425056" y="0.0745098" />
+                            <point x="0.498881" y="0.0627451" />
+                            <point x="0.95302" y="0.0823529" />
+                            <point x="0.957494" y="0.92549" />
+                            <point x="0.498881" y="0.976471" />
+                            <point x="0.0357942" y="0.937255" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="StartButton" sid="854453553537976">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4556324428608532" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503597" original-source="C:\Users\Bruno\Desktop\StartRezise.png">
+                        <collision-poly>
+                            <point x="0.019802" y="0.0384615" />
+                            <point x="0.49835" y="0.0128205" />
+                            <point x="0.993399" y="0.0128205" />
+                            <point x="0.871287" y="0.75" />
+                            <point x="0.49835" y="0.99359" />
+                            <point x="0.0924092" y="0.820513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="996868362056029">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6476723575752782" speed="5">
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="C:\Users\Bruno\Desktop\StartW.png">
+                        <collision-poly>
+                            <point x="0.187919" y="0.329412" />
+                            <point x="0.498881" y="0.14902" />
+                            <point x="0.798658" y="0.352941" />
+                            <point x="0.780761" y="0.498039" />
+                            <point x="0.749441" y="0.560784" />
+                            <point x="0.498881" y="0.752941" />
+                            <point x="0.228188" y="0.6" />
+                            <point x="0.248322" y="0.498039" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LocalStorage" sid="7104572931830471">
+            <plugin id="LocalStorage" />
+        </object-type>
+        <object-type name="Sprite4" sid="5968376179332879">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5666485583186727" speed="5">
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="C:\Users\Bruno\Downloads\HighscoresW.png">
+                        <collision-poly>
+                            <point x="0.00225225" y="0.0172414" />
+                            <point x="0.5" y="0.0862069" />
+                            <point x="0.988739" y="0.0862069" />
+                            <point x="0.986486" y="0.896552" />
+                            <point x="0.5" y="0.913793" />
+                            <point x="0.00225225" y="0.982759" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HighScoreNumber" sid="1385805333915783">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="row" sid="8299204551805971" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="HighScoreTime" sid="9135584416321705">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="row" sid="2965104282678021" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Sprite5" sid="3247972641026458">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9353769610936644" speed="5">
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="C:\Users\Bruno\Desktop\Textos_0000_Highscores-.png">
+                        <collision-poly>
+                            <point x="0.00225225" y="0.0172414" />
+                            <point x="0.5" y="0.0862069" />
+                            <point x="0.988739" y="0.0862069" />
+                            <point x="0.986486" y="0.896552" />
+                            <point x="0.5" y="0.913793" />
+                            <point x="0.00225225" y="0.982759" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GameOver" sid="844249194732568">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="1833847731998025">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8841340356690394" speed="5">
+                    <frame duration="1" hotspotX="0.500818" hotspotY="0.501235" original-source="C:\Users\Bruno\Downloads\GameOver.png">
+                        <collision-poly>
+                            <point x="0.296236" y="0.446914" />
+                            <point x="0.499182" y="0.175309" />
+                            <point x="0.690671" y="0.466667" />
+                            <point x="0.680851" y="0.498765" />
+                            <point x="0.84779" y="0.77037" />
+                            <point x="0.171849" y="0.740741" />
+                            <point x="0.296236" y="0.498765" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HighscorePlate" sid="6090318965401435">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2931265351050918" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Bruno\Desktop\HighscoreResize.png">
+                        <collision-poly>
+                            <point x="0.0648536" y="0.262712" />
+                            <point x="0.5" y="0.254237" />
+                            <point x="0.924686" y="0.305085" />
+                            <point x="0.933054" y="0.5" />
+                            <point x="0.92887" y="0.711864" />
+                            <point x="0.5" y="0.762712" />
+                            <point x="0.0627615" y="0.745763" />
+                            <point x="0.00627615" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Title" sid="9080534714728095">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3865758136946103" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Bruno\Desktop\TomboRezise.png">
+                        <collision-poly>
+                            <point x="0.0233918" y="0.129032" />
+                            <point x="0.5" y="0.16129" />
+                            <point x="0.959064" y="0.225806" />
+                            <point x="0.959064" y="0.774194" />
+                            <point x="0.5" y="0.919355" />
+                            <point x="0.0263158" y="0.854839" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LocalLeaderboards" sid="3964268819917535">
+            <plugin id="LL" />
+        </object-type>
+        <object-type name="TouchdownZone" sid="5959447410775968">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4916287129444879" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="RugbierGordoFamily" plugin-id="Sprite" sid="4239344752867576">
+            <members>
+                <member>RugbierGordo_entity_000_Rugbier_0000_Head</member>
+                <member>RugbierGordo_entity_000_Rugbier_0001_FrontLeg</member>
+                <member>RugbierGordo_entity_000_Rugbier_0001s_0000_FrontArmColor</member>
+                <member>RugbierGordo_entity_000_Rugbier_0001s_0001_BackArmColor</member>
+                <member>RugbierGordo_entity_000_Rugbier_0003_Torso</member>
+                <member>RugbierGordo_entity_000_Rugbier_0005_BackLeg</member>
+            </members>
+        </family>
+        <family name="RugbierNormalFamily" plugin-id="Sprite" sid="2026703883843731">
+            <members>
+                <member>RugbierNormal_entity_000_Rugbier_0000_LegColorBack</member>
+                <member>RugbierNormal_entity_000_Rugbier_0000_LegColorBack_000</member>
+                <member>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor</member>
+                <member>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_000</member>
+                <member>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_001</member>
+                <member>RugbierNormal_entity_000_Rugbier_0000s_0000_BeatenColor_002</member>
+                <member>RugbierNormal_entity_000_Rugbier_0003s_0000_HeadNorma</member>
+                <member>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront</member>
+                <member>RugbierNormal_entity_000_Rugbier_0004s_0000_LegColorFront_000</member>
+                <member>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor</member>
+                <member>RugbierNormal_entity_000_Rugbier_0005s_0000_FrontArmColor_000</member>
+                <member>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor</member>
+                <member>RugbierNormal_entity_000_Rugbier_0006s_0000_BodyColor_000</member>
+                <member>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor</member>
+                <member>RugbierNormal_entity_000_Rugbier_0006s_0001_BackArmColor_000</member>
+            </members>
+        </family>
+        <family name="RugbierRapidoFamily" plugin-id="Sprite" sid="6000102737092341">
+            <members>
+                <member>RugbierRapido_entity_000_Rugbier_0003_Normal</member>
+                <member>RugbierRapido_entity_000_Rugbier_0005_FrontShoulder</member>
+                <member>RugbierRapido_entity_000_Rugbier_0006_FrontThights</member>
+                <member>RugbierRapido_entity_000_Rugbier_0007_FrontLegColor</member>
+                <member>RugbierRapido_entity_000_Rugbier_0008_TorsoColor</member>
+                <member>RugbierRapido_entity_000_Rugbier_0009_BackThights</member>
+                <member>RugbierRapido_entity_000_Rugbier_0010_BackLegColor</member>
+                <member>RugbierRapido_entity_000_Rugbier_0011_BackArmColor</member>
+                <member>RugbierRapido_entity_000_Rugbier_0012_BackSoulder</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>StartScreen.xml</layout>
+        <layout>PlayScreen.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>PlayScreenEvents.xml</event-sheet>
+        <event-sheet>StartScreenEvents.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="40">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="49">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="LocalStorage" uid="55" />
+        <global-instance type="LocalLeaderboards" uid="52" />
+    </global-instances>
+    <sounds-folder>
+        <file name="DolorRugbierNormal.m4a" />
+        <file name="DolorRugbierNormal.ogg" />
+        <file name="DolorRugbierRapido.ogg" />
+        <file name="DolorRugbirGordo.m4a" />
+        <file name="DolorRugbirGordo.ogg" />
+        <file name="SonidoEndGame.m4a" />
+        <file name="SonidoEndGame.ogg" />
+        <file name="SonidoFondo.m4a" />
+        <file name="SonidoFondo.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Spriter animations">
+            <file name="RugbierGordo.scml" />
+            <file name="RugbierNormal.scml" />
+            <file name="RugbierRapido.scml" />
+            <file name="RugbierGordo.scon" />
+            <file name="RugbierNormal.scon" />
+            <file name="RugbierRapido.scon" />
+        </file-folder>
+        <file-folder name="Icons">
+            <file name="loading-logo.png" />
+            <file name="icon-32.png" />
+            <file name="icon-256.png" />
+            <file name="icon-16.png" />
+            <file name="icon-128.png" />
+            <file name="icon-114.png" />
+        </file-folder>
+        <file name="colleged-webfont.eot" />
+        <file name="colleged-webfont.svg" />
+        <file name="colleged-webfont.ttf" />
+        <file name="colleged-webfont.woff" />
+        <file name="colleged-webfont.woff2" />
+        <file name="stylesheet.css" />
+    </files-folder>
+</c2project>

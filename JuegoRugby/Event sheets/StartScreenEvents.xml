@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>StartScreenEvents</name>
+    <events>
+        <variable constant="0" name="HighscoreRows" sid="896355889469712" static="0" type="number">9</variable>
+        <variable constant="0" name="RowSpacing" sid="9818534686323743" static="0" type="number">29</variable>
+        <variable constant="0" name="RowStartY" sid="6934208041140852" static="0" type="number">350</variable>
+        <event-block sid="3424350353693487">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7514647253509834" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="4915009345685689" type="Timer">
+                    <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="9170298700483157" type="ScoreText">
+                    <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="502707433143468" type="BallsText">
+                    <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="2090249355004989" type="Score">
+                    <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="5281088506792554" type="Balls">
+                    <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="4434787851158557" type="HighScoreNumber">
+                    <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="7796587124305655" type="HighScoreTime">
+                    <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block disabled="1" sid="8770898064018377">
+                    <conditions>
+                        <condition id="-10" name="For" sid="1492814162203104" type="System">
+                            <param id="0" name="Name">&quot;&quot;</param>
+                            <param id="1" name="Start index">2</param>
+                            <param id="2" name="End index">HighscoreRows</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="6129175908405394" type="System">
+                            <param id="0" name="Object to create">HighScoreNumber</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">HighScoreNumber.X</param>
+                            <param id="3" name="Y">RowStartY + RowSpacing * loopindex - RowSpacing</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="53805664332024" type="System">
+                            <param id="0" name="Object to create">HighScoreTime</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">HighScoreTime.X</param>
+                            <param id="3" name="Y">RowStartY + RowSpacing * loopindex - RowSpacing</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="2317291410079749" type="HighScoreNumber">
+                            <param id="0" name="Instance variable">row</param>
+                            <param id="1" name="Value">loopindex</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="6264663781421047" type="HighScoreTime">
+                            <param id="0" name="Instance variable">row</param>
+                            <param id="1" name="Value">loopindex</param>
+                        </action>
+                        <action id="5" name="Set web font" sid="5169473543829673" type="HighScoreNumber">
+                            <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                        <action id="5" name="Set web font" sid="1079416831628246" type="HighScoreTime">
+                            <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block disabled="1" sid="4223884665891269">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="5444347277575139" type="System">
+                                    <param id="0" name="First value">LocalLeaderboards.currentScore</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="2788231939117677" type="HighScoreNumber">
+                                    <param id="0" name="Text">LocalLeaderboards.currentScore</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7968538455258625">
+                    <conditions>
+                        <condition id="0" name="Loop Leaderboard" sid="3220527607095382" type="LocalLeaderboards">
+                            <param id="0" name="id">&quot;localLeaderboard&quot;</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="6699227683938762" type="System">
+                            <param id="0" name="First value">int(LocalLeaderboards.currentPosition)</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Second value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="8905953616653186" type="System">
+                            <param id="0" name="Object to create">HighScoreNumber</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">HighScoreNumber.X</param>
+                            <param id="3" name="Y">RowStartY + RowSpacing * (int(LocalLeaderboards.currentPosition))- RowSpacing</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="9373527550392005" type="System">
+                            <param id="0" name="Object to create">HighScoreTime</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">HighScoreTime.X</param>
+                            <param id="3" name="Y">RowStartY + RowSpacing * (int(LocalLeaderboards.currentPosition) ) - RowSpacing</param>
+                        </action>
+                        <action id="5" name="Set web font" sid="3371205271853631" type="HighScoreNumber">
+                            <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                        <action id="5" name="Set web font" sid="5691873544812504" type="HighScoreTime">
+                            <param id="0" name="Family name">&quot;collegedregular&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="2604902851862796" type="HighScoreNumber">
+                            <param id="0" name="Instance variable">row</param>
+                            <param id="1" name="Value">int(LocalLeaderboards.currentPosition)</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="6469924443564992" type="HighScoreTime">
+                            <param id="0" name="Instance variable">row</param>
+                            <param id="1" name="Value">int(LocalLeaderboards.currentPosition)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="967510521565277" type="HighScoreNumber">
+                            <param id="0" name="Text">tokenat(LocalLeaderboards.currentScore, 0, &quot;/&quot;)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1967773335326156" type="HighScoreTime">
+                            <param id="0" name="Text">tokenat(LocalLeaderboards.currentScore, 1, &quot;/&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="391845517565725">
+            <conditions>
+                <condition id="17" name="On tap object" sid="7655242639538561" type="Touch">
+                    <param id="0" name="Object">StartButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5082377791378118" type="System">
+                    <param id="0" name="Layout">PlayScreen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

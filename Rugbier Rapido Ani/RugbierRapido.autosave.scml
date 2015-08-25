@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1">
+    <folder id="0">
+        <file id="0" name="Rugbier_0008_Torso-Color.png" width="311" height="387" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Rugbier_0003_Normal.png" width="318" height="324" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Rugbier_0005_Front-Shoulder.png" width="223" height="212" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Rugbier_0006_Front-Thights.png" width="95" height="189" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Rugbier_0007_Front-Leg-Color.png" width="143" height="199" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Rugbier_0009_Back-Thights.png" width="149" height="168" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="Rugbier_0010_Back-Leg-Color.png" width="138" height="189" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="Rugbier_0012_Back-Soulder.png" width="219" height="108" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="Rugbier_0011_Back-Arm-Color.png" width="148" height="83" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="Rugbier_0001_Wounded.png" width="333" height="346" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="Rugbier_0002_Happy.png" width="318" height="324" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_Rugbier_0008_Torso-Color" realname="Rugbier_0008_Torso-Color" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_Rugbier_0003_Normal" realname="Rugbier_0003_Normal" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+                <i folder="0" file="10"/>
+                <i folder="0" file="9"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_Rugbier_0005_Front-Shoulder" realname="Rugbier_0005_Front-Shoulder" type="sprite">
+            <frames>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_Rugbier_0004_Front-Arm" realname="Rugbier_0004_Front-Arm" type="sprite">
+            <frames/>
+        </obj_info>
+        <obj_info name="entity_000_Rugbier_0006_Front-Thights" realname="Rugbier_0006_Front-Thights" type="sprite">
+            <frames>
+                <i folder="0" file="3"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_Rugbier_0007_Front-Leg-Color" realname="Rugbier_0007_Front-Leg-Color" type="sprite">
+            <frames>
+                <i folder="0" file="4"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_Rugbier_0009_Back-Thights" realname="Rugbier_0009_Back-Thights" type="sprite">
+            <frames>
+                <i folder="0" file="5"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_Rugbier_0010_Back-Leg-Color" realname="Rugbier_0010_Back-Leg-Color" type="sprite">
+            <frames>
+                <i folder="0" file="6"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_Rugbier_0012_Back-Soulder" realname="Rugbier_0012_Back-Soulder" type="sprite">
+            <frames>
+                <i folder="0" file="7"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_Rugbier_0011_Back-Arm-Color" realname="Rugbier_0011_Back-Arm-Color" type="sprite">
+            <frames>
+                <i folder="0" file="8"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_bone_000" realname="bone_000" type="bone" w="406.076" h="10"/>
+        <obj_info name="entity_000_bone_001" realname="bone_001" type="bone" w="354.389" h="10"/>
+        <obj_info name="entity_000_bone_002" realname="bone_002" type="bone" w="220" h="10"/>
+        <obj_info name="entity_000_bone_003" realname="bone_003" type="bone" w="240.017" h="10"/>
+        <obj_info name="entity_000_bone_004" realname="bone_004" type="bone" w="169.176" h="10"/>
+        <obj_info name="entity_000_bone_005" realname="bone_005" type="bone" w="188.766" h="10"/>
+        <obj_info name="entity_000_bone_006" realname="bone_006" type="bone" w="194.475" h="10"/>
+        <obj_info name="entity_000_bone_007" realname="bone_007" type="bone" w="180" h="10"/>
+        <obj_info name="entity_000_bone_008" realname="bone_008" type="bone" w="182.879" h="10"/>
+        <obj_info name="entity_000_bone_009" realname="bone_009" type="bone" w="166.108" h="10"/>
+        <animation id="0" name="Run" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="9" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="10" key="0"/>
+                    <bone_ref id="2" parent="0" timeline="11" key="0"/>
+                    <bone_ref id="3" parent="2" timeline="18" key="0"/>
+                    <bone_ref id="4" parent="0" timeline="12" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="14" key="0"/>
+                    <bone_ref id="6" parent="5" timeline="15" key="0"/>
+                    <bone_ref id="7" parent="0" timeline="16" key="0"/>
+                    <bone_ref id="8" parent="7" timeline="17" key="0"/>
+                    <object_ref id="0" parent="5" name="Rugbier_0009_Back-Thights" folder="0" file="5" abs_x="-153.756547" abs_y="221.008309" abs_angle="47.581315" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="5" key="0" z_index="0"/>
+                    <object_ref id="1" parent="6" name="Rugbier_0010_Back-Leg-Color" folder="0" file="6" abs_x="-45.442727" abs_y="176.090515" abs_angle="322.257581" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="6" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" name="Rugbier_0012_Back-Soulder" folder="0" file="7" abs_x="-361.106557" abs_y="468.218009" abs_angle="25.15874" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="7" key="0" z_index="2"/>
+                    <object_ref id="3" parent="3" name="Rugbier_0011_Back-Arm-Color" folder="0" file="8" abs_x="-463.469958" abs_y="472.038658" abs_angle="4.030945" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="8" key="0" z_index="3"/>
+                    <object_ref id="4" parent="0" name="Rugbier_0008_Torso-Color" folder="0" file="0" abs_x="-223.179319" abs_y="592.829544" abs_angle="9.890308" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="4"/>
+                    <object_ref id="5" parent="7" name="Rugbier_0006_Front-Thights" folder="0" file="3" abs_x="4.627416" abs_y="290.956063" abs_angle="31.253682" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="5"/>
+                    <object_ref id="6" parent="8" name="Rugbier_0007_Front-Leg-Color" folder="0" file="4" abs_x="101.314591" abs_y="152.914414" abs_angle="72.28537" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="4" key="0" z_index="6"/>
+                    <object_ref id="7" parent="1" name="Rugbier_0003_Normal" folder="0" file="1" abs_x="-333.406163" abs_y="824.347323" abs_angle="14.470237" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="7"/>
+                    <object_ref id="8" parent="4" name="Rugbier_0005_Front-Shoulder" folder="0" file="2" abs_x="-77.03796" abs_y="385.137638" abs_angle="82.891992" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="8"/>
+                </key>
+                <key id="1" time="497">
+                    <bone_ref id="0" timeline="9" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="10" key="1"/>
+                    <bone_ref id="2" parent="0" timeline="11" key="1"/>
+                    <bone_ref id="3" parent="2" timeline="18" key="1"/>
+                    <bone_ref id="4" parent="0" timeline="12" key="1"/>
+                    <bone_ref id="5" parent="4" timeline="13" key="0"/>
+                    <bone_ref id="6" parent="0" timeline="14" key="1"/>
+                    <bone_ref id="7" parent="6" timeline="15" key="1"/>
+                    <bone_ref id="8" parent="0" timeline="16" key="1"/>
+                    <bone_ref id="9" parent="8" timeline="17" key="1"/>
+                    <object_ref id="0" parent="6" timeline="5" key="0" z_index="0"/>
+                    <object_ref id="1" parent="7" timeline="6" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="7" key="0" z_index="2"/>
+                    <object_ref id="3" parent="3" timeline="8" key="0" z_index="3"/>
+                    <object_ref id="4" parent="0" timeline="0" key="0" z_index="4"/>
+                    <object_ref id="5" parent="8" timeline="3" key="0" z_index="5"/>
+                    <object_ref id="6" parent="9" timeline="4" key="0" z_index="6"/>
+                    <object_ref id="7" parent="1" timeline="1" key="0" z_index="7"/>
+                    <object_ref id="8" parent="4" timeline="2" key="0" z_index="8"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="Rugbier_0008_Torso-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="59.398181" y="-22.46553" pivot_x="0.562042" pivot_y="0.20637" angle="267.580491"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="Rugbier_0003_Normal">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="62.947946" y="-10.201245" pivot_x="0.395656" pivot_y="0.180879" angle="268.614082"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="Rugbier_0005_Front-Shoulder">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="23.094527" y="-6.308207" pivot_x="0.818559" pivot_y="0.81084" angle="132.729509"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="4" name="Rugbier_0006_Front-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="17.429699" y="8.530506" pivot_x="0.540923" pivot_y="0.786842" angle="90"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="5" name="Rugbier_0007_Front-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="0.254843" y="-8.218774" pivot_x="0.142361" pivot_y="0.883214" angle="51.254215"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="6" name="Rugbier_0009_Back-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="9.143991" y="-5.550995" pivot_x="0.74619" pivot_y="0.811074" angle="130.293569"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="7" name="Rugbier_0010_Back-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="17.364152" y="3.917124" pivot_x="0.209147" pivot_y="0.877068" angle="48.715728"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="8" name="Rugbier_0012_Back-Soulder">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="11.745489" y="-6.024213" pivot_x="0.809927" pivot_y="0.816917" angle="167.264551"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="9" name="Rugbier_0011_Back-Arm-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="6.222626" y="-0.477588" pivot_x="0.868674" pivot_y="0.121096" angle="217.897741"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="10" name="bone_000" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="-7.513227" y="257.460318" angle="102.309817"/>
+                </key>
+                <key id="1" time="497">
+                    <bone x="-7.513227" y="264.777391" angle="98.075461"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="11" name="bone_001" object_type="bone">
+                <key id="0">
+                    <bone x="299.411468" y="68.095399" angle="3.546338"/>
+                </key>
+                <key id="1" time="497" spin="-1">
+                    <bone x="302.354851" y="78.536005" angle="14.737776"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="12" name="bone_002" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="301.102894" y="110.005801" angle="115.584372"/>
+                </key>
+                <key id="1" time="497">
+                    <bone x="301.102894" y="110.005801" angle="109.672759"/>
+                </key>
+            </timeline>
+            <timeline id="12" obj="13" name="bone_003" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="321.754339" y="-52.588591" angle="207.852666"/>
+                </key>
+                <key id="1" time="497">
+                    <bone x="316.159881" y="-69.44061" angle="142.667484"/>
+                </key>
+            </timeline>
+            <timeline id="13" obj="14" name="bone_004" object_type="bone">
+                <key id="0" time="497" spin="0">
+                    <bone x="191.224167" y="-4.975082" angle="279.828705"/>
+                </key>
+            </timeline>
+            <timeline id="14" obj="15" name="bone_005" object_type="bone">
+                <key id="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+                <key id="1" time="497" spin="-1">
+                    <bone x="42.477189" y="35.222316" angle="203.698683"/>
+                </key>
+            </timeline>
+            <timeline id="15" obj="16" name="bone_006" object_type="bone">
+                <key id="0">
+                    <bone x="134.388657" y="-7.953548" angle="356.254107"/>
+                </key>
+                <key id="1" time="497" spin="-1">
+                    <bone x="134.388657" y="-7.953548" angle="91.343639"/>
+                </key>
+            </timeline>
+            <timeline id="16" obj="17" name="bone_007" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+                <key id="1" time="497">
+                    <bone x="22.43136" y="-66.959033" angle="150.656157"/>
+                </key>
+            </timeline>
+            <timeline id="17" obj="18" name="bone_008" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="141.349206" angle="79.777473"/>
+                </key>
+                <key id="1" time="497">
+                    <bone x="141.349206" angle="15.057895"/>
+                </key>
+            </timeline>
+            <timeline id="18" obj="19" name="bone_009" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="191.228575" y="7.971524" angle="288.239015"/>
+                </key>
+                <key id="1" time="497">
+                    <bone x="191.228575" y="7.971524" angle="283.722481"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Touchdown" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="9" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="10" key="0"/>
+                    <bone_ref id="2" parent="0" timeline="11" key="0"/>
+                    <bone_ref id="3" parent="2" timeline="17" key="0"/>
+                    <bone_ref id="4" parent="0" timeline="12" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="13" key="0"/>
+                    <bone_ref id="6" parent="5" timeline="14" key="0"/>
+                    <bone_ref id="7" parent="0" timeline="15" key="0"/>
+                    <bone_ref id="8" parent="7" timeline="16" key="0"/>
+                    <object_ref id="0" parent="5" name="Rugbier_0009_Back-Thights" folder="0" file="5" abs_x="-153.756547" abs_y="221.008309" abs_angle="47.581315" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="5" key="0" z_index="0"/>
+                    <object_ref id="1" parent="6" name="Rugbier_0010_Back-Leg-Color" folder="0" file="6" abs_x="-45.442727" abs_y="176.090515" abs_angle="322.257581" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="6" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" name="Rugbier_0012_Back-Soulder" folder="0" file="7" abs_x="-361.106557" abs_y="468.218009" abs_angle="25.15874" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="7" key="0" z_index="2"/>
+                    <object_ref id="3" parent="3" name="Rugbier_0011_Back-Arm-Color" folder="0" file="8" abs_x="-463.469958" abs_y="472.038658" abs_angle="4.030945" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="8" key="0" z_index="3"/>
+                    <object_ref id="4" parent="0" name="Rugbier_0008_Torso-Color" folder="0" file="0" abs_x="-223.179319" abs_y="592.829544" abs_angle="9.890308" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="4"/>
+                    <object_ref id="5" parent="7" name="Rugbier_0006_Front-Thights" folder="0" file="3" abs_x="4.627416" abs_y="290.956063" abs_angle="31.253682" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="5"/>
+                    <object_ref id="6" parent="8" name="Rugbier_0007_Front-Leg-Color" folder="0" file="4" abs_x="99.174779" abs_y="189.662767" abs_angle="2.232531" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="4" key="0" z_index="6"/>
+                    <object_ref id="7" parent="1" name="Rugbier_0003_Normal" folder="0" file="1" abs_x="-333.406163" abs_y="824.347323" abs_angle="14.470237" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="7"/>
+                    <object_ref id="8" parent="4" name="Rugbier_0005_Front-Shoulder" folder="0" file="2" abs_x="-77.03796" abs_y="385.137638" abs_angle="82.891992" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="8"/>
+                </key>
+                <key id="1" time="299">
+                    <bone_ref id="0" timeline="9" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="10" key="1"/>
+                    <bone_ref id="2" parent="0" timeline="11" key="1"/>
+                    <bone_ref id="3" parent="2" timeline="17" key="1"/>
+                    <bone_ref id="4" parent="0" timeline="12" key="1"/>
+                    <bone_ref id="5" parent="0" timeline="13" key="1"/>
+                    <bone_ref id="6" parent="5" timeline="14" key="1"/>
+                    <bone_ref id="7" parent="0" timeline="15" key="1"/>
+                    <bone_ref id="8" parent="7" timeline="16" key="1"/>
+                    <object_ref id="0" parent="5" timeline="5" key="1" z_index="0"/>
+                    <object_ref id="1" parent="6" timeline="6" key="1" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="7" key="1" z_index="2"/>
+                    <object_ref id="3" parent="3" timeline="8" key="1" z_index="3"/>
+                    <object_ref id="4" parent="0" timeline="0" key="1" z_index="4"/>
+                    <object_ref id="5" parent="7" timeline="3" key="1" z_index="5"/>
+                    <object_ref id="6" parent="8" timeline="4" key="1" z_index="6"/>
+                    <object_ref id="7" parent="1" timeline="1" key="1" z_index="7"/>
+                    <object_ref id="8" parent="4" timeline="2" key="1" z_index="8"/>
+                </key>
+                <key id="2" time="600">
+                    <bone_ref id="0" timeline="9" key="2"/>
+                    <bone_ref id="1" parent="0" timeline="10" key="2"/>
+                    <bone_ref id="2" parent="0" timeline="11" key="2"/>
+                    <bone_ref id="3" parent="2" timeline="17" key="2"/>
+                    <bone_ref id="4" parent="0" timeline="12" key="2"/>
+                    <bone_ref id="5" parent="0" timeline="13" key="2"/>
+                    <bone_ref id="6" parent="5" timeline="14" key="2"/>
+                    <bone_ref id="7" parent="0" timeline="15" key="2"/>
+                    <bone_ref id="8" parent="7" timeline="16" key="2"/>
+                    <object_ref id="0" parent="5" timeline="5" key="1" z_index="0"/>
+                    <object_ref id="1" parent="6" timeline="6" key="1" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="7" key="1" z_index="2"/>
+                    <object_ref id="3" parent="3" timeline="8" key="2" z_index="3"/>
+                    <object_ref id="4" parent="0" timeline="0" key="1" z_index="4"/>
+                    <object_ref id="5" parent="7" timeline="3" key="1" z_index="5"/>
+                    <object_ref id="6" parent="8" timeline="4" key="1" z_index="6"/>
+                    <object_ref id="7" parent="1" timeline="1" key="1" z_index="7"/>
+                    <object_ref id="8" parent="4" timeline="2" key="1" z_index="8"/>
+                </key>
+                <key id="3" time="800">
+                    <bone_ref id="0" timeline="9" key="3"/>
+                    <bone_ref id="1" parent="0" timeline="10" key="3"/>
+                    <bone_ref id="2" parent="0" timeline="11" key="3"/>
+                    <bone_ref id="3" parent="2" timeline="17" key="3"/>
+                    <bone_ref id="4" parent="0" timeline="12" key="3"/>
+                    <bone_ref id="5" parent="0" timeline="13" key="3"/>
+                    <bone_ref id="6" parent="5" timeline="14" key="3"/>
+                    <bone_ref id="7" parent="0" timeline="15" key="3"/>
+                    <bone_ref id="8" parent="7" timeline="16" key="3"/>
+                    <object_ref id="0" parent="5" timeline="5" key="1" z_index="0"/>
+                    <object_ref id="1" parent="6" timeline="6" key="1" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="7" key="1" z_index="2"/>
+                    <object_ref id="3" parent="3" timeline="8" key="2" z_index="3"/>
+                    <object_ref id="4" parent="0" timeline="0" key="1" z_index="4"/>
+                    <object_ref id="5" parent="7" timeline="3" key="1" z_index="5"/>
+                    <object_ref id="6" parent="8" timeline="4" key="1" z_index="6"/>
+                    <object_ref id="7" parent="1" timeline="1" key="1" z_index="7"/>
+                    <object_ref id="8" parent="4" timeline="2" key="1" z_index="8"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="Rugbier_0008_Torso-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="59.398181" y="-22.46553" pivot_x="0.562042" pivot_y="0.20637" angle="267.580491"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="0" x="59.398181" y="-22.46553" pivot_x="0.562042" pivot_y="0.20637" angle="267.580491"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="Rugbier_0003_Normal">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="62.947946" y="-10.201245" pivot_x="0.395656" pivot_y="0.180879" angle="268.614082"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="10" x="62.947946" y="-10.201245" pivot_x="0.395656" pivot_y="0.180879" angle="268.614082"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="Rugbier_0005_Front-Shoulder">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="23.094527" y="-6.308207" pivot_x="0.818559" pivot_y="0.81084" angle="132.729509"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="2" x="23.094527" y="-6.308207" pivot_x="0.818559" pivot_y="0.81084" angle="132.729509"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="4" name="Rugbier_0006_Front-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="17.429699" y="8.530506" pivot_x="0.540923" pivot_y="0.786842" angle="90"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="3" x="17.429699" y="8.530506" pivot_x="0.540923" pivot_y="0.786842" angle="90"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="5" name="Rugbier_0007_Front-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="0.254843" y="-8.218774" pivot_x="0.142361" pivot_y="0.883214" angle="51.254215"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="4" x="0.254843" y="-8.218774" pivot_x="0.142361" pivot_y="0.883214" angle="51.254215"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="6" name="Rugbier_0009_Back-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="9.143991" y="-5.550995" pivot_x="0.74619" pivot_y="0.811074" angle="130.293569"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="5" x="9.143991" y="-5.550995" pivot_x="0.74619" pivot_y="0.811074" angle="130.293569"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="7" name="Rugbier_0010_Back-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="17.364152" y="3.917124" pivot_x="0.209147" pivot_y="0.877068" angle="48.715728"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="6" x="17.364152" y="3.917124" pivot_x="0.209147" pivot_y="0.877068" angle="48.715728"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="8" name="Rugbier_0012_Back-Soulder">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="11.745489" y="-6.024213" pivot_x="0.809927" pivot_y="0.816917" angle="167.264551"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="7" x="11.745489" y="-6.024213" pivot_x="0.809927" pivot_y="0.816917" angle="167.264551"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="9" name="Rugbier_0011_Back-Arm-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="6.222626" y="-0.477588" pivot_x="0.868674" pivot_y="0.121096" angle="217.897741"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="8" x="6.222626" y="-0.477588" pivot_x="0.868674" pivot_y="0.121096" angle="217.897741"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <object folder="0" file="8" x="13.05344" y="6.488144" pivot_x="0.868674" pivot_y="0.121096" angle="217.897741"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="10" name="bone_000" object_type="bone">
+                <key id="0">
+                    <bone x="-7.513227" y="257.460318" angle="102.309817"/>
+                </key>
+                <key id="1" time="299">
+                    <bone x="-7.513227" y="257.460318" angle="136.316612"/>
+                </key>
+                <key id="2" time="600">
+                    <bone x="-5.074203" y="67.216416" angle="157.49515"/>
+                </key>
+                <key id="3" time="800" spin="-1">
+                    <bone x="-9.952251" y="64.777391" angle="163.951771"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="11" name="bone_001" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="299.411468" y="68.095399" angle="3.546338"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <bone x="299.411468" y="68.095399" angle="331.250849"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <bone x="299.411468" y="68.095399" angle="331.250849"/>
+                </key>
+                <key id="3" time="800">
+                    <bone x="299.411468" y="68.095399" angle="331.250849"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="12" name="bone_002" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="301.102894" y="110.005801" angle="115.584372"/>
+                </key>
+                <key id="1" time="299" spin="-1">
+                    <bone x="307.286378" y="78.811774" angle="46.568126"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <bone x="307.286378" y="78.811774" angle="30.428557"/>
+                </key>
+                <key id="3" time="800">
+                    <bone x="307.286378" y="78.811774" angle="30.428557"/>
+                </key>
+            </timeline>
+            <timeline id="12" obj="13" name="bone_003" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="321.754339" y="-52.588591" angle="207.852666"/>
+                </key>
+                <key id="1" time="299" spin="-1">
+                    <bone x="300.826229" y="-62.458232" angle="187.785859"/>
+                </key>
+                <key id="2" time="600">
+                    <bone x="300.826229" y="-62.458232" angle="174.77662"/>
+                </key>
+                <key id="3" time="800">
+                    <bone x="300.826229" y="-62.458232" angle="181.457371"/>
+                </key>
+            </timeline>
+            <timeline id="13" obj="15" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+                <key id="3" time="800" spin="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+            </timeline>
+            <timeline id="14" obj="16" name="bone_006" object_type="bone">
+                <key id="0">
+                    <bone x="134.388657" y="-7.953548" angle="356.254107"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <bone x="134.388657" y="-7.953548" angle="48.945781"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <bone x="134.388657" y="-7.953548" angle="48.945781"/>
+                </key>
+                <key id="3" time="800" spin="-1">
+                    <bone x="134.388657" y="-7.953548" angle="48.945781"/>
+                </key>
+            </timeline>
+            <timeline id="15" obj="17" name="bone_007" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+                <key id="3" time="800" spin="0">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+            </timeline>
+            <timeline id="16" obj="18" name="bone_008" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="141.349206" angle="9.724634"/>
+                </key>
+                <key id="1" time="299">
+                    <bone x="141.349206" angle="9.724634"/>
+                </key>
+                <key id="2" time="600">
+                    <bone x="141.349206" angle="23.270317"/>
+                </key>
+                <key id="3" time="800" spin="-1">
+                    <bone x="141.349206" angle="40.397138"/>
+                </key>
+            </timeline>
+            <timeline id="17" obj="19" name="bone_009" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="191.228575" y="7.971524" angle="288.239015"/>
+                </key>
+                <key id="1" time="299" spin="-1">
+                    <bone x="191.228575" y="7.971524" angle="259.065757"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <bone x="191.228575" y="7.971524" angle="216.516008"/>
+                </key>
+                <key id="3" time="800">
+                    <bone x="191.228575" y="7.971524" angle="216.516008"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="TouchdownDamage" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="9" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="10" key="0"/>
+                    <bone_ref id="2" parent="0" timeline="11" key="0"/>
+                    <bone_ref id="3" parent="2" timeline="17" key="0"/>
+                    <bone_ref id="4" parent="0" timeline="12" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="13" key="0"/>
+                    <bone_ref id="6" parent="5" timeline="14" key="0"/>
+                    <bone_ref id="7" parent="0" timeline="15" key="0"/>
+                    <bone_ref id="8" parent="7" timeline="16" key="0"/>
+                    <object_ref id="0" parent="5" name="Rugbier_0009_Back-Thights" folder="0" file="5" abs_x="-153.756547" abs_y="221.008309" abs_angle="47.581315" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="5" key="0" z_index="0"/>
+                    <object_ref id="1" parent="6" name="Rugbier_0010_Back-Leg-Color" folder="0" file="6" abs_x="-45.442727" abs_y="176.090515" abs_angle="322.257581" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="6" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" name="Rugbier_0012_Back-Soulder" folder="0" file="7" abs_x="-209.598573" abs_y="339.065899" abs_angle="87.778262" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="7" key="0" z_index="2"/>
+                    <object_ref id="3" parent="3" name="Rugbier_0011_Back-Arm-Color" folder="0" file="8" abs_x="-275.24422" abs_y="275.096235" abs_angle="55.692762" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="8" key="0" z_index="3"/>
+                    <object_ref id="4" parent="0" name="Rugbier_0008_Torso-Color" folder="0" file="0" abs_x="-223.179319" abs_y="592.829544" abs_angle="9.890308" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="4"/>
+                    <object_ref id="5" parent="7" name="Rugbier_0006_Front-Thights" folder="0" file="3" abs_x="4.627416" abs_y="290.956063" abs_angle="31.253682" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="5"/>
+                    <object_ref id="6" parent="8" name="Rugbier_0007_Front-Leg-Color" folder="0" file="4" abs_x="99.174779" abs_y="189.662767" abs_angle="2.232531" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="4" key="0" z_index="6"/>
+                    <object_ref id="7" parent="1" name="Rugbier_0003_Normal" folder="0" file="9" abs_x="-343.655686" abs_y="840.313345" abs_angle="14.470237" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="7"/>
+                    <object_ref id="8" parent="4" name="Rugbier_0005_Front-Shoulder" folder="0" file="2" abs_x="-77.03796" abs_y="385.137638" abs_angle="82.891992" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="8"/>
+                </key>
+                <key id="1" time="299">
+                    <bone_ref id="0" timeline="9" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="10" key="1"/>
+                    <bone_ref id="2" parent="0" timeline="11" key="1"/>
+                    <bone_ref id="3" parent="2" timeline="17" key="1"/>
+                    <bone_ref id="4" parent="0" timeline="12" key="1"/>
+                    <bone_ref id="5" parent="0" timeline="13" key="1"/>
+                    <bone_ref id="6" parent="5" timeline="14" key="1"/>
+                    <bone_ref id="7" parent="0" timeline="15" key="1"/>
+                    <bone_ref id="8" parent="7" timeline="16" key="1"/>
+                    <object_ref id="0" parent="5" timeline="5" key="1" z_index="0"/>
+                    <object_ref id="1" parent="6" timeline="6" key="1" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="7" key="1" z_index="2"/>
+                    <object_ref id="3" parent="3" timeline="8" key="1" z_index="3"/>
+                    <object_ref id="4" parent="0" timeline="0" key="1" z_index="4"/>
+                    <object_ref id="5" parent="7" timeline="3" key="1" z_index="5"/>
+                    <object_ref id="6" parent="8" timeline="4" key="1" z_index="6"/>
+                    <object_ref id="7" parent="1" timeline="1" key="1" z_index="7"/>
+                    <object_ref id="8" parent="4" timeline="2" key="1" z_index="8"/>
+                </key>
+                <key id="2" time="600">
+                    <bone_ref id="0" timeline="9" key="2"/>
+                    <bone_ref id="1" parent="0" timeline="10" key="2"/>
+                    <bone_ref id="2" parent="0" timeline="11" key="2"/>
+                    <bone_ref id="3" parent="2" timeline="17" key="2"/>
+                    <bone_ref id="4" parent="0" timeline="12" key="2"/>
+                    <bone_ref id="5" parent="0" timeline="13" key="2"/>
+                    <bone_ref id="6" parent="5" timeline="14" key="2"/>
+                    <bone_ref id="7" parent="0" timeline="15" key="2"/>
+                    <bone_ref id="8" parent="7" timeline="16" key="2"/>
+                    <object_ref id="0" parent="5" timeline="5" key="1" z_index="0"/>
+                    <object_ref id="1" parent="6" timeline="6" key="1" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="7" key="1" z_index="2"/>
+                    <object_ref id="3" parent="3" timeline="8" key="2" z_index="3"/>
+                    <object_ref id="4" parent="0" timeline="0" key="1" z_index="4"/>
+                    <object_ref id="5" parent="7" timeline="3" key="1" z_index="5"/>
+                    <object_ref id="6" parent="8" timeline="4" key="1" z_index="6"/>
+                    <object_ref id="7" parent="1" timeline="1" key="1" z_index="7"/>
+                    <object_ref id="8" parent="4" timeline="2" key="1" z_index="8"/>
+                </key>
+                <key id="3" time="800">
+                    <bone_ref id="0" timeline="9" key="3"/>
+                    <bone_ref id="1" parent="0" timeline="10" key="3"/>
+                    <bone_ref id="2" parent="0" timeline="11" key="3"/>
+                    <bone_ref id="3" parent="2" timeline="17" key="3"/>
+                    <bone_ref id="4" parent="0" timeline="12" key="3"/>
+                    <bone_ref id="5" parent="0" timeline="13" key="3"/>
+                    <bone_ref id="6" parent="5" timeline="14" key="3"/>
+                    <bone_ref id="7" parent="0" timeline="15" key="3"/>
+                    <bone_ref id="8" parent="7" timeline="16" key="3"/>
+                    <object_ref id="0" parent="5" timeline="5" key="1" z_index="0"/>
+                    <object_ref id="1" parent="6" timeline="6" key="1" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="7" key="1" z_index="2"/>
+                    <object_ref id="3" parent="3" timeline="8" key="2" z_index="3"/>
+                    <object_ref id="4" parent="0" timeline="0" key="1" z_index="4"/>
+                    <object_ref id="5" parent="7" timeline="3" key="1" z_index="5"/>
+                    <object_ref id="6" parent="8" timeline="4" key="1" z_index="6"/>
+                    <object_ref id="7" parent="1" timeline="1" key="1" z_index="7"/>
+                    <object_ref id="8" parent="4" timeline="2" key="1" z_index="8"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="Rugbier_0008_Torso-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="59.398181" y="-22.46553" pivot_x="0.562042" pivot_y="0.20637" angle="267.580491"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="0" x="59.398181" y="-22.46553" pivot_x="0.562042" pivot_y="0.20637" angle="267.580491"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="Rugbier_0003_Normal">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="62.947946" y="-10.201245" pivot_x="0.395656" pivot_y="0.180879" angle="268.614082"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="9" x="62.947946" y="-10.201245" pivot_x="0.395656" pivot_y="0.180879" angle="268.614082"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="Rugbier_0005_Front-Shoulder">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="23.094527" y="-6.308207" pivot_x="0.818559" pivot_y="0.81084" angle="132.729509"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="2" x="23.094527" y="-6.308207" pivot_x="0.818559" pivot_y="0.81084" angle="132.729509"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="4" name="Rugbier_0006_Front-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="17.429699" y="8.530506" pivot_x="0.540923" pivot_y="0.786842" angle="90"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="3" x="17.429699" y="8.530506" pivot_x="0.540923" pivot_y="0.786842" angle="90"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="5" name="Rugbier_0007_Front-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="0.254843" y="-8.218774" pivot_x="0.142361" pivot_y="0.883214" angle="51.254215"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="4" x="0.254843" y="-8.218774" pivot_x="0.142361" pivot_y="0.883214" angle="51.254215"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="6" name="Rugbier_0009_Back-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="9.143991" y="-5.550995" pivot_x="0.74619" pivot_y="0.811074" angle="130.293569"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="5" x="9.143991" y="-5.550995" pivot_x="0.74619" pivot_y="0.811074" angle="130.293569"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="7" name="Rugbier_0010_Back-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="17.364152" y="3.917124" pivot_x="0.209147" pivot_y="0.877068" angle="48.715728"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="6" x="17.364152" y="3.917124" pivot_x="0.209147" pivot_y="0.877068" angle="48.715728"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="8" name="Rugbier_0012_Back-Soulder">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="11.745489" y="-6.024213" pivot_x="0.809927" pivot_y="0.816917" angle="167.264551"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="7" x="11.745489" y="-6.024213" pivot_x="0.809927" pivot_y="0.816917" angle="167.264551"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="9" name="Rugbier_0011_Back-Arm-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="6.222626" y="-0.477588" pivot_x="0.868674" pivot_y="0.121096" angle="217.897741"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="8" x="6.222626" y="-0.477588" pivot_x="0.868674" pivot_y="0.121096" angle="217.897741"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <object folder="0" file="8" x="13.05344" y="6.488144" pivot_x="0.868674" pivot_y="0.121096" angle="217.897741"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="10" name="bone_000" object_type="bone">
+                <key id="0">
+                    <bone x="-7.513227" y="257.460318" angle="102.309817"/>
+                </key>
+                <key id="1" time="299">
+                    <bone x="-7.513227" y="257.460318" angle="136.316612"/>
+                </key>
+                <key id="2" time="600">
+                    <bone x="-5.074203" y="67.216416" angle="157.49515"/>
+                </key>
+                <key id="3" time="800" spin="-1">
+                    <bone x="-9.952251" y="64.777391" angle="163.951771"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="11" name="bone_001" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="299.411468" y="68.095399" angle="3.546338"/>
+                </key>
+                <key id="1" time="299">
+                    <bone x="299.411468" y="68.095399" angle="331.250849"/>
+                </key>
+                <key id="2" time="600" spin="-1">
+                    <bone x="299.411468" y="68.095399" angle="346.571669"/>
+                </key>
+                <key id="3" time="800">
+                    <bone x="299.411468" y="68.095399" angle="331.250849"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="12" name="bone_002" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="301.102894" y="110.005801" angle="178.203894"/>
+                </key>
+                <key id="1" time="299" spin="-1">
+                    <bone x="307.286378" y="78.811774" angle="46.568126"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <bone x="307.286378" y="78.811774" angle="30.428557"/>
+                </key>
+                <key id="3" time="800">
+                    <bone x="307.286378" y="78.811774" angle="30.428557"/>
+                </key>
+            </timeline>
+            <timeline id="12" obj="13" name="bone_003" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="321.754339" y="-52.588591" angle="207.852666"/>
+                </key>
+                <key id="1" time="299" spin="-1">
+                    <bone x="300.826229" y="-62.458232" angle="187.785859"/>
+                </key>
+                <key id="2" time="600">
+                    <bone x="300.826229" y="-62.458232" angle="174.77662"/>
+                </key>
+                <key id="3" time="800">
+                    <bone x="300.826229" y="-62.458232" angle="181.457371"/>
+                </key>
+            </timeline>
+            <timeline id="13" obj="15" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+                <key id="3" time="800" spin="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+            </timeline>
+            <timeline id="14" obj="16" name="bone_006" object_type="bone">
+                <key id="0">
+                    <bone x="134.388657" y="-7.953548" angle="356.254107"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <bone x="134.388657" y="-7.953548" angle="48.945781"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <bone x="134.388657" y="-7.953548" angle="48.945781"/>
+                </key>
+                <key id="3" time="800" spin="-1">
+                    <bone x="134.388657" y="-7.953548" angle="48.945781"/>
+                </key>
+            </timeline>
+            <timeline id="15" obj="17" name="bone_007" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+                <key id="3" time="800" spin="0">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+            </timeline>
+            <timeline id="16" obj="18" name="bone_008" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="141.349206" angle="9.724634"/>
+                </key>
+                <key id="1" time="299">
+                    <bone x="141.349206" angle="9.724634"/>
+                </key>
+                <key id="2" time="600">
+                    <bone x="141.349206" angle="23.270317"/>
+                </key>
+                <key id="3" time="800" spin="-1">
+                    <bone x="141.349206" angle="40.397138"/>
+                </key>
+            </timeline>
+            <timeline id="17" obj="19" name="bone_009" object_type="bone">
+                <key id="0">
+                    <bone x="191.228575" y="7.971524" angle="277.28131"/>
+                </key>
+                <key id="1" time="299">
+                    <bone x="191.228575" y="7.971524" angle="297.919467"/>
+                </key>
+                <key id="2" time="600">
+                    <bone x="191.228575" y="7.971524" angle="305.27133"/>
+                </key>
+                <key id="3" time="800" spin="-1">
+                    <bone x="191.228575" y="7.971524" angle="305.818443"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="RunDamage" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="0" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="1" key="0"/>
+                    <bone_ref id="2" parent="0" timeline="2" key="0"/>
+                    <bone_ref id="3" parent="2" timeline="3" key="0"/>
+                    <bone_ref id="4" parent="0" timeline="4" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="5" key="0"/>
+                    <bone_ref id="6" parent="5" timeline="6" key="0"/>
+                    <bone_ref id="7" parent="0" timeline="7" key="0"/>
+                    <bone_ref id="8" parent="7" timeline="8" key="0"/>
+                    <object_ref id="0" parent="5" name="Rugbier_0009_Back-Thights" folder="0" file="5" abs_x="-151.857351" abs_y="214.094071" abs_angle="50.307392" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="9" key="0" z_index="0"/>
+                    <object_ref id="1" parent="6" name="Rugbier_0010_Back-Leg-Color" folder="0" file="6" abs_x="-41.529769" abs_y="174.378631" abs_angle="324.983658" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="10" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" name="Rugbier_0012_Back-Soulder" folder="0" file="7" abs_x="-314.838344" abs_y="666.394567" abs_angle="317.153956" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="11" key="0" z_index="2"/>
+                    <object_ref id="3" parent="3" name="Rugbier_0011_Back-Arm-Color" folder="0" file="8" abs_x="-272.239637" abs_y="750.001031" abs_angle="266.899357" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="12" key="0" z_index="3"/>
+                    <object_ref id="4" parent="0" name="Rugbier_0008_Torso-Color" folder="0" file="0" abs_x="-238.885776" abs_y="582.192708" abs_angle="12.616385" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="13" key="0" z_index="4"/>
+                    <object_ref id="5" parent="7" name="Rugbier_0006_Front-Thights" folder="0" file="3" abs_x="3.020583" abs_y="291.495579" abs_angle="33.979759" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="14" key="0" z_index="5"/>
+                    <object_ref id="6" parent="8" name="Rugbier_0007_Front-Leg-Color" folder="0" file="4" abs_x="106.163749" abs_y="158.208693" abs_angle="75.011447" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="15" key="0" z_index="6"/>
+                    <object_ref id="7" parent="1" name="Rugbier_0003_Normal" folder="0" file="9" abs_x="-370.996397" abs_y="796.837186" abs_angle="17.196314" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="16" key="0" z_index="7"/>
+                    <object_ref id="8" parent="4" name="Rugbier_0005_Front-Shoulder" folder="0" file="2" abs_x="-187.038387" abs_y="459.097399" abs_angle="44.184076" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="17" key="0" z_index="8"/>
+                </key>
+                <key id="1" time="500">
+                    <bone_ref id="0" timeline="0" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="1" key="1"/>
+                    <bone_ref id="2" parent="0" timeline="2" key="1"/>
+                    <bone_ref id="3" parent="2" timeline="3" key="1"/>
+                    <bone_ref id="4" parent="0" timeline="4" key="1"/>
+                    <bone_ref id="5" parent="0" timeline="5" key="1"/>
+                    <bone_ref id="6" parent="5" timeline="6" key="1"/>
+                    <bone_ref id="7" parent="0" timeline="7" key="1"/>
+                    <bone_ref id="8" parent="7" timeline="8" key="1"/>
+                    <object_ref id="0" parent="5" timeline="9" key="0" z_index="0"/>
+                    <object_ref id="1" parent="6" timeline="10" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="11" key="0" z_index="2"/>
+                    <object_ref id="3" parent="3" timeline="12" key="0" z_index="3"/>
+                    <object_ref id="4" parent="0" timeline="13" key="0" z_index="4"/>
+                    <object_ref id="5" parent="7" timeline="14" key="0" z_index="5"/>
+                    <object_ref id="6" parent="8" timeline="15" key="0" z_index="6"/>
+                    <object_ref id="7" parent="1" timeline="16" key="0" z_index="7"/>
+                    <object_ref id="8" parent="4" timeline="17" key="0" z_index="8"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="10" name="bone_000" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="-7.513227" y="257.460318" angle="105.035894"/>
+                </key>
+                <key id="1" time="500">
+                    <bone x="-7.513227" y="201.362757" angle="103.519097"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="11" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="273.50074" y="75.055558" angle="3.546338"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <bone x="273.50074" y="75.055558" angle="3.546338"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="12" name="bone_002" object_type="bone">
+                <key id="0">
+                    <bone x="301.102894" y="110.005801" angle="40.973654"/>
+                </key>
+                <key id="1" time="500" spin="-1">
+                    <bone x="301.102894" y="110.005801" angle="52.542153"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="19" name="bone_009" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="191.228575" y="7.971524" angle="281.307558"/>
+                </key>
+                <key id="1" time="500">
+                    <bone x="191.228575" y="7.971524" angle="268.824266"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="13" name="bone_003" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="316.159881" y="-69.44061" angle="166.418673"/>
+                </key>
+                <key id="1" time="500">
+                    <bone x="316.159881" y="-69.44061" angle="160.609148"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="15" name="bone_005" object_type="bone">
+                <key id="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+                <key id="1" time="500" spin="-1">
+                    <bone x="42.477189" y="35.222316" angle="199.753769"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="16" name="bone_006" object_type="bone">
+                <key id="0">
+                    <bone x="134.388657" y="-7.953548" angle="356.254107"/>
+                </key>
+                <key id="1" time="500" spin="-1">
+                    <bone x="134.388657" y="-7.953548" angle="57.416902"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="17" name="bone_007" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+                <key id="1" time="500">
+                    <bone x="22.43136" y="-66.959033" angle="126.105568"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="18" name="bone_008" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="141.349206" angle="79.777473"/>
+                </key>
+                <key id="1" time="500">
+                    <bone x="141.349206" angle="3.500583"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="6" name="Rugbier_0009_Back-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="9.143991" y="-5.550995" pivot_x="0.74619" pivot_y="0.811074" angle="130.293569"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="7" name="Rugbier_0010_Back-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="17.364152" y="3.917124" pivot_x="0.209147" pivot_y="0.877068" angle="48.715728"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="8" name="Rugbier_0012_Back-Soulder">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="11.745489" y="-6.024213" pivot_x="0.809927" pivot_y="0.816917" angle="171.144408"/>
+                </key>
+            </timeline>
+            <timeline id="12" obj="9" name="Rugbier_0011_Back-Arm-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="6.222626" y="-0.477588" pivot_x="0.868674" pivot_y="0.121096" angle="199.582251"/>
+                </key>
+            </timeline>
+            <timeline id="13" obj="0" name="Rugbier_0008_Torso-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="59.398181" y="-22.46553" pivot_x="0.562042" pivot_y="0.20637" angle="267.580491"/>
+                </key>
+            </timeline>
+            <timeline id="14" obj="4" name="Rugbier_0006_Front-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="17.429699" y="8.530506" pivot_x="0.540923" pivot_y="0.786842" angle="90"/>
+                </key>
+            </timeline>
+            <timeline id="15" obj="5" name="Rugbier_0007_Front-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="0.254843" y="-8.218774" pivot_x="0.142361" pivot_y="0.883214" angle="51.254215"/>
+                </key>
+            </timeline>
+            <timeline id="16" obj="1" name="Rugbier_0003_Normal">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="62.947946" y="-10.201245" pivot_x="0.395656" pivot_y="0.180879" angle="268.614082"/>
+                </key>
+            </timeline>
+            <timeline id="17" obj="2" name="Rugbier_0005_Front-Shoulder">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="23.094527" y="-6.308207" pivot_x="0.818559" pivot_y="0.81084" angle="132.729509"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="Damage" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="0" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="1" key="0"/>
+                    <bone_ref id="2" parent="0" timeline="2" key="0"/>
+                    <bone_ref id="3" parent="2" timeline="3" key="0"/>
+                    <bone_ref id="4" parent="0" timeline="4" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="5" key="0"/>
+                    <bone_ref id="6" parent="5" timeline="6" key="0"/>
+                    <bone_ref id="7" parent="0" timeline="7" key="0"/>
+                    <bone_ref id="8" parent="7" timeline="8" key="0"/>
+                    <object_ref id="0" parent="5" name="Rugbier_0009_Back-Thights" folder="0" file="5" abs_x="-152.307777" abs_y="272.468781" abs_angle="17.468794" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="9" key="0" z_index="0"/>
+                    <object_ref id="1" parent="6" name="Rugbier_0010_Back-Leg-Color" folder="0" file="6" abs_x="-81.147043" abs_y="179.271991" abs_angle="292.14506" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="10" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" name="Rugbier_0012_Back-Soulder" folder="0" file="7" abs_x="-177.281245" abs_y="441.581989" abs_angle="42.018376" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="11" key="0" z_index="2"/>
+                    <object_ref id="3" parent="3" name="Rugbier_0011_Back-Arm-Color" folder="0" file="8" abs_x="-260.075483" abs_y="486.574377" abs_angle="354.12301" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="12" key="0" z_index="3"/>
+                    <object_ref id="4" parent="0" name="Rugbier_0008_Torso-Color" folder="0" file="0" abs_x="-25.818742" abs_y="628.939083" abs_angle="339.777787" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="13" key="0" z_index="4"/>
+                    <object_ref id="5" parent="7" name="Rugbier_0006_Front-Thights" folder="0" file="3" abs_x="19.793744" abs_y="253.515312" abs_angle="1.141161" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="14" key="0" z_index="5"/>
+                    <object_ref id="6" parent="8" name="Rugbier_0007_Front-Leg-Color" folder="0" file="4" abs_x="34.176727" abs_y="85.595579" abs_angle="42.172849" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="15" key="0" z_index="6"/>
+                    <object_ref id="7" parent="1" name="Rugbier_0003_Normal" folder="0" file="9" abs_x="-5.873265" abs_y="903.465884" abs_angle="344.357716" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="16" key="0" z_index="7"/>
+                    <object_ref id="8" parent="4" name="Rugbier_0005_Front-Shoulder" folder="0" file="2" abs_x="84.202943" abs_y="318.464603" abs_angle="77.38337" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="17" key="0" z_index="8"/>
+                </key>
+                <key id="1" time="400">
+                    <bone_ref id="0" timeline="0" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="1" key="1"/>
+                    <bone_ref id="2" parent="0" timeline="2" key="1"/>
+                    <bone_ref id="3" parent="2" timeline="3" key="1"/>
+                    <bone_ref id="4" parent="0" timeline="4" key="1"/>
+                    <bone_ref id="5" parent="0" timeline="5" key="1"/>
+                    <bone_ref id="6" parent="5" timeline="6" key="1"/>
+                    <bone_ref id="7" parent="0" timeline="7" key="1"/>
+                    <bone_ref id="8" parent="7" timeline="8" key="1"/>
+                    <object_ref id="0" parent="5" timeline="9" key="1" z_index="0"/>
+                    <object_ref id="1" parent="6" timeline="10" key="1" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="11" key="1" z_index="2"/>
+                    <object_ref id="3" parent="3" timeline="12" key="1" z_index="3"/>
+                    <object_ref id="4" parent="0" timeline="13" key="1" z_index="4"/>
+                    <object_ref id="5" parent="7" timeline="14" key="1" z_index="5"/>
+                    <object_ref id="6" parent="8" timeline="15" key="1" z_index="6"/>
+                    <object_ref id="7" parent="1" timeline="16" key="1" z_index="7"/>
+                    <object_ref id="8" parent="4" timeline="17" key="1" z_index="8"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="10" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-7.513227" y="230.63105" angle="72.197296"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <bone x="-5.074203" y="313.557879" angle="72.197296"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="11" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="299.411468" y="68.095399" angle="3.546338"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <bone x="299.411468" y="68.095399" angle="3.546338"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="12" name="bone_002" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="301.102894" y="110.005801" angle="158.761492"/>
+                </key>
+                <key id="1" time="400">
+                    <bone x="301.102894" y="110.005801" angle="67.712969"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="19" name="bone_009" object_type="bone">
+                <key id="0">
+                    <bone x="191.228575" y="7.971524" angle="279.948559"/>
+                </key>
+                <key id="1" time="400" spin="-1">
+                    <bone x="191.228575" y="7.971524" angle="279.966531"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="13" name="bone_003" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="316.159881" y="-69.44061" angle="232.456565"/>
+                </key>
+                <key id="1" time="400">
+                    <bone x="316.159881" y="-69.44061" angle="173.524551"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="15" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="16" name="bone_006" object_type="bone">
+                <key id="0">
+                    <bone x="134.388657" y="-7.953548" angle="356.254107"/>
+                </key>
+                <key id="1" time="400" spin="-1">
+                    <bone x="134.388657" y="-7.953548" angle="32.72376"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="17" name="bone_007" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="18" name="bone_008" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="141.349206" angle="79.777473"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <bone x="141.349206" angle="79.777473"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="6" name="Rugbier_0009_Back-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="9.143991" y="-5.550995" pivot_x="0.74619" pivot_y="0.811074" angle="130.293569"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <object folder="0" file="5" x="9.143991" y="-5.550995" pivot_x="0.74619" pivot_y="0.811074" angle="130.293569"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="7" name="Rugbier_0010_Back-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="17.364152" y="3.917124" pivot_x="0.209147" pivot_y="0.877068" angle="48.715728"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <object folder="0" file="6" x="17.364152" y="3.917124" pivot_x="0.209147" pivot_y="0.877068" angle="48.715728"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="8" name="Rugbier_0012_Back-Soulder">
+                <key id="0" spin="-1">
+                    <object folder="0" file="7" x="11.745489" y="-6.024213" pivot_x="0.809927" pivot_y="0.816917" angle="171.059588"/>
+                </key>
+                <key id="1" time="400">
+                    <object folder="0" file="7" x="11.745489" y="-6.024213" pivot_x="0.809927" pivot_y="0.816917" angle="171.013595"/>
+                </key>
+            </timeline>
+            <timeline id="12" obj="9" name="Rugbier_0011_Back-Arm-Color">
+                <key id="0">
+                    <object folder="0" file="8" x="6.222626" y="-0.477588" pivot_x="0.868674" pivot_y="0.121096" angle="203.215663"/>
+                </key>
+                <key id="1" time="400" spin="-1">
+                    <object folder="0" file="8" x="6.222626" y="-0.477588" pivot_x="0.868674" pivot_y="0.121096" angle="217.897741"/>
+                </key>
+            </timeline>
+            <timeline id="13" obj="0" name="Rugbier_0008_Torso-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="59.398181" y="-22.46553" pivot_x="0.562042" pivot_y="0.20637" angle="267.580491"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <object folder="0" file="0" x="59.398181" y="-22.46553" pivot_x="0.562042" pivot_y="0.20637" angle="267.580491"/>
+                </key>
+            </timeline>
+            <timeline id="14" obj="4" name="Rugbier_0006_Front-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="17.429699" y="8.530506" pivot_x="0.540923" pivot_y="0.786842" angle="90"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <object folder="0" file="3" x="17.429699" y="8.530506" pivot_x="0.540923" pivot_y="0.786842" angle="90"/>
+                </key>
+            </timeline>
+            <timeline id="15" obj="5" name="Rugbier_0007_Front-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="0.254843" y="-8.218774" pivot_x="0.142361" pivot_y="0.883214" angle="51.254215"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <object folder="0" file="4" x="0.254843" y="-8.218774" pivot_x="0.142361" pivot_y="0.883214" angle="51.254215"/>
+                </key>
+            </timeline>
+            <timeline id="16" obj="1" name="Rugbier_0003_Normal">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="62.947946" y="-10.201245" pivot_x="0.395656" pivot_y="0.180879" angle="268.614082"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <object folder="0" file="9" x="62.947946" y="-10.201245" pivot_x="0.395656" pivot_y="0.180879" angle="268.614082"/>
+                </key>
+            </timeline>
+            <timeline id="17" obj="2" name="Rugbier_0005_Front-Shoulder">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="23.094527" y="-6.308207" pivot_x="0.818559" pivot_y="0.81084" angle="132.729509"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <object folder="0" file="2" x="23.094527" y="-6.308207" pivot_x="0.818559" pivot_y="0.81084" angle="132.729509"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="DamageFinal" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="0" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="1" key="0"/>
+                    <bone_ref id="2" parent="0" timeline="2" key="0"/>
+                    <bone_ref id="3" parent="2" timeline="3" key="0"/>
+                    <bone_ref id="4" parent="0" timeline="4" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="5" key="0"/>
+                    <bone_ref id="6" parent="5" timeline="6" key="0"/>
+                    <bone_ref id="7" parent="0" timeline="7" key="0"/>
+                    <bone_ref id="8" parent="7" timeline="8" key="0"/>
+                    <object_ref id="0" parent="5" name="Rugbier_0009_Back-Thights" folder="0" file="5" abs_x="-157.844223" abs_y="246.669156" abs_angle="37.691007" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="9" key="0" z_index="0"/>
+                    <object_ref id="1" parent="6" name="Rugbier_0010_Back-Leg-Color" folder="0" file="6" abs_x="-58.855311" abs_y="183.814665" abs_angle="312.367273" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="10" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" name="Rugbier_0012_Back-Soulder" folder="0" file="7" abs_x="-244.964571" abs_y="400.407998" abs_angle="60.186993" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="11" key="0" z_index="2"/>
+                    <object_ref id="3" parent="3" name="Rugbier_0011_Back-Arm-Color" folder="0" file="8" abs_x="-338.159348" abs_y="372.908095" abs_angle="29.027301" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="12" key="0" z_index="3"/>
+                    <object_ref id="4" parent="0" name="Rugbier_0008_Torso-Color" folder="0" file="0" abs_x="-162.370331" abs_y="624.888758" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="13" key="0" z_index="4"/>
+                    <object_ref id="5" parent="7" name="Rugbier_0006_Front-Thights" folder="0" file="3" abs_x="10.200298" abs_y="288.372956" abs_angle="21.363374" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="14" key="0" z_index="5"/>
+                    <object_ref id="6" parent="8" name="Rugbier_0007_Front-Leg-Color" folder="0" file="4" abs_x="81.740174" abs_y="135.775601" abs_angle="62.395062" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="15" key="0" z_index="6"/>
+                    <object_ref id="7" parent="1" name="Rugbier_0003_Normal" folder="0" file="9" abs_x="-238.5478" abs_y="889.387869" abs_angle="4.579929" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="16" key="0" z_index="7"/>
+                    <object_ref id="8" parent="4" name="Rugbier_0005_Front-Shoulder" folder="0" file="2" abs_x="48.188752" abs_y="371.582526" abs_angle="97.605583" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="17" key="0" z_index="8"/>
+                </key>
+                <key id="1" time="500">
+                    <bone_ref id="0" timeline="0" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="1" key="1"/>
+                    <bone_ref id="2" parent="0" timeline="2" key="1"/>
+                    <bone_ref id="3" parent="2" timeline="3" key="1"/>
+                    <bone_ref id="4" parent="0" timeline="4" key="1"/>
+                    <bone_ref id="5" parent="0" timeline="5" key="1"/>
+                    <bone_ref id="6" parent="5" timeline="6" key="1"/>
+                    <bone_ref id="7" parent="0" timeline="7" key="1"/>
+                    <bone_ref id="8" parent="7" timeline="8" key="1"/>
+                    <object_ref id="0" parent="5" timeline="9" key="1" z_index="0"/>
+                    <object_ref id="1" parent="6" timeline="10" key="1" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="11" key="1" z_index="2"/>
+                    <object_ref id="3" parent="3" timeline="12" key="1" z_index="3"/>
+                    <object_ref id="4" parent="0" timeline="13" key="1" z_index="4"/>
+                    <object_ref id="5" parent="7" timeline="14" key="1" z_index="5"/>
+                    <object_ref id="6" parent="8" timeline="15" key="1" z_index="6"/>
+                    <object_ref id="7" parent="1" timeline="16" key="1" z_index="7"/>
+                    <object_ref id="8" parent="4" timeline="17" key="1" z_index="8"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="10" name="bone_000" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="-7.513227" y="257.460318" angle="92.419509"/>
+                </key>
+                <key id="1" time="500">
+                    <bone x="-7.513227" y="113.015873" angle="352.126287"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="11" name="bone_001" object_type="bone">
+                <key id="0">
+                    <bone x="299.411468" y="68.095399" angle="3.546338"/>
+                </key>
+                <key id="1" time="500" spin="-1">
+                    <bone x="299.411468" y="68.095399" angle="38.464843"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="12" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="301.102894" y="110.005801" angle="158.761492"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <bone x="301.102894" y="110.005801" angle="158.761492"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="19" name="bone_009" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="191.228575" y="7.971524" angle="279.948559"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <bone x="191.228575" y="7.971524" angle="279.948559"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="13" name="bone_003" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="316.159881" y="-69.44061" angle="232.456565"/>
+                </key>
+                <key id="1" time="500">
+                    <bone x="316.159881" y="-69.44061" angle="142.696035"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="15" name="bone_005" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="42.477189" y="35.222316" angle="174.977929"/>
+                </key>
+                <key id="1" time="500">
+                    <bone x="42.477189" y="35.222316" angle="121.888447"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="16" name="bone_006" object_type="bone">
+                <key id="0">
+                    <bone x="134.388657" y="-7.953548" angle="356.254107"/>
+                </key>
+                <key id="1" time="500" spin="-1">
+                    <bone x="134.388657" y="-7.953548" angle="56.550794"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="17" name="bone_007" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="22.43136" y="-66.959033" angle="198.943865"/>
+                </key>
+                <key id="1" time="500">
+                    <bone x="22.43136" y="-66.959033" angle="104.137396"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="18" name="bone_008" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="141.349206" angle="79.777473"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <bone x="141.349206" angle="79.777473"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="6" name="Rugbier_0009_Back-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="9.143991" y="-5.550995" pivot_x="0.74619" pivot_y="0.811074" angle="130.293569"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="5" x="9.143991" y="-5.550995" pivot_x="0.74619" pivot_y="0.811074" angle="130.293569"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="7" name="Rugbier_0010_Back-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="17.364152" y="3.917124" pivot_x="0.209147" pivot_y="0.877068" angle="48.715728"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="6" x="17.364152" y="3.917124" pivot_x="0.209147" pivot_y="0.877068" angle="48.715728"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="8" name="Rugbier_0012_Back-Soulder">
+                <key id="0" spin="-1">
+                    <object folder="0" file="7" x="11.745489" y="-6.024213" pivot_x="0.809927" pivot_y="0.816917" angle="169.005992"/>
+                </key>
+                <key id="1" time="500">
+                    <object folder="0" file="7" x="11.745489" y="-6.024213" pivot_x="0.809927" pivot_y="0.816917" angle="167.978727"/>
+                </key>
+            </timeline>
+            <timeline id="12" obj="9" name="Rugbier_0011_Back-Arm-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="6.222626" y="-0.477588" pivot_x="0.868674" pivot_y="0.121096" angle="217.897741"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="8" x="6.222626" y="-0.477588" pivot_x="0.868674" pivot_y="0.121096" angle="217.897741"/>
+                </key>
+            </timeline>
+            <timeline id="13" obj="0" name="Rugbier_0008_Torso-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="59.398181" y="-22.46553" pivot_x="0.562042" pivot_y="0.20637" angle="267.580491"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="0" x="59.398181" y="-22.46553" pivot_x="0.562042" pivot_y="0.20637" angle="267.580491"/>
+                </key>
+            </timeline>
+            <timeline id="14" obj="4" name="Rugbier_0006_Front-Thights">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="17.429699" y="8.530506" pivot_x="0.540923" pivot_y="0.786842" angle="90"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="3" x="17.429699" y="8.530506" pivot_x="0.540923" pivot_y="0.786842" angle="90"/>
+                </key>
+            </timeline>
+            <timeline id="15" obj="5" name="Rugbier_0007_Front-Leg-Color">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="0.254843" y="-8.218774" pivot_x="0.142361" pivot_y="0.883214" angle="51.254215"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="4" x="0.254843" y="-8.218774" pivot_x="0.142361" pivot_y="0.883214" angle="51.254215"/>
+                </key>
+            </timeline>
+            <timeline id="16" obj="1" name="Rugbier_0003_Normal">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="62.947946" y="-10.201245" pivot_x="0.395656" pivot_y="0.180879" angle="268.614082"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="9" x="62.947946" y="-10.201245" pivot_x="0.395656" pivot_y="0.180879" angle="268.614082"/>
+                </key>
+            </timeline>
+            <timeline id="17" obj="2" name="Rugbier_0005_Front-Shoulder">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="23.094527" y="-6.308207" pivot_x="0.818559" pivot_y="0.81084" angle="132.729509"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="2" x="23.094527" y="-6.308207" pivot_x="0.818559" pivot_y="0.81084" angle="132.729509"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
